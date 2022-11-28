@@ -1,3 +1,4 @@
+export { default as AppTextlockup } from '../../components/AppTextlockup.vue'
 export { default as AppNav } from '../../components/app-nav.vue'
 
 // nuxt/nuxt.js#8607

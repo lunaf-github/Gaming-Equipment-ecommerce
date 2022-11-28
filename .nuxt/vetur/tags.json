@@ -1,4 +1,7 @@
 {
+  "AppTextlockup": {
+    "description": "Auto imported from components/AppTextlockup.vue"
+  },
   "AppNav": {
     "description": "Auto imported from components/app-nav.vue"
   }

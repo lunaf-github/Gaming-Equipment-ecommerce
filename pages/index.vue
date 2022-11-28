@@ -1,9 +1,17 @@
 <template>
-  <h1> world </h1>
+  <div>
+    <app-textlockup />
+  </div>
 </template>
 
 <script>
+import AppTextlockup from "~/components/AppTextlockup.vue";
+
+
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  components: {
+    AppTextlockup
+  }
 }
 </script>

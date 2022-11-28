@@ -4,10 +4,19 @@
    <nav>
     <ul>
      <li>
-      <nuxt-link exact to="/">Home</nuxt-link>
+      <nuxt-link to="/">Home</nuxt-link>
      </li>
      <li>
       <nuxt-link to="/all">All</nuxt-link>
+     </li>
+     <li>
+      <nuxt-link to="/men">Men</nuxt-link>
+     </li>
+     <li>
+      <nuxt-link to="/women">Women</nuxt-link>
+     </li>
+     <li>
+      <nuxt-link to="/cart">Cart</nuxt-link>
      </li>
     </ul>
    </nav>
@@ -20,6 +29,6 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 
 </style>
