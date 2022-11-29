@@ -31,34 +31,34 @@ export default {}
  grid-template-rows: 50px 50px 100px 20px 1fr;
  grid-column-gap:0px;
  grid-row-gap:0px;
- border:solid red;
+
  .new{
   grid-area: 1/1/5/4;
   font-size: 23vmin;
   color: #efefef;
   text-transform: uppercase;
-  border: solid blue;
+
  }
  .sale{
   grid-area:2/2/3/4;
   font-size: 6.5vmin;
   color:#d96528;
   font-family: "PT Serif", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  border: solid red;
+
   }
   .collection{
     grid-area: 3/ 3/ 4/ 4;
     font-size:2vmin;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    border:solid yellow;
+
   }
   .details {
     grid-area: 4/2/5/4;
     font-size:2vmin;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    border: solid green;
+
   }
   .img {
     max-width:950px;
