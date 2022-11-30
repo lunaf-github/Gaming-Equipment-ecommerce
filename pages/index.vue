@@ -1,6 +1,7 @@
 <template>
   <div>
     <app-textlockup />
+    <app-sales-boxes />
     <app-textlockup>
       <template v-slot:img>
         <img src = "/bag.jpg" alt="bag" />
@@ -15,12 +16,14 @@
 
 <script>
 import AppTextlockup from "~/components/AppTextlockup.vue";
+import AppSalesBoxes from "~/components/AppSalesBoxes.vue";
 
 
 export default {
   name: 'IndexPage',
   components: {
-    AppTextlockup
+    AppTextlockup,
+    AppSalesBoxes 
   }
 }
 </script>

@@ -1,4 +1,7 @@
 {
+  "AppSalesBoxes": {
+    "description": "Auto imported from components/AppSalesBoxes.vue"
+  },
   "AppTextlockup": {
     "description": "Auto imported from components/AppTextlockup.vue"
   },
