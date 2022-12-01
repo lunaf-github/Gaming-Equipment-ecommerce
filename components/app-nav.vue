@@ -1,19 +1,31 @@
 <template>
   <header>
-   <h1>Skyline Ivy</h1>
+   <h1>Gamer's Den</h1>
    <nav>
     <ul>
      <li>
       <nuxt-link to="/">Home</nuxt-link>
      </li>
      <li>
-      <nuxt-link to="/all">All</nuxt-link>
+      <nuxt-link to="/accesories">Accessories</nuxt-link>
      </li>
      <li>
-      <nuxt-link to="/men">Men</nuxt-link>
+      <nuxt-link to="/desk">Desks</nuxt-link>
      </li>
      <li>
-      <nuxt-link to="/women">Women</nuxt-link>
+      <nuxt-link to="/chair">Chairs</nuxt-link>
+     </li>
+     <li>
+      <nuxt-link to="/keyboard">Keyboards</nuxt-link>
+     </li>
+     <li>
+      <nuxt-link to="/mouse">Mouse Devices</nuxt-link>
+     </li>
+     <li>
+      <nuxt-link to="/speaker">Speakers</nuxt-link>
+     </li>
+     <li>
+      <nuxt-link to="/monitor">Monitors</nuxt-link>
      </li>
      <li>
       <nuxt-link to="/cart">Cart</nuxt-link>
