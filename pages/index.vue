@@ -4,7 +4,7 @@
     <app-sales-boxes />
     <app-textlockup>
       <template v-slot:img>
-        <img src = "/bag.jpg" alt="bag" />
+        <img src = "/gamer-setup-2.jpg" alt="bag" />
       </template>
       <template v-slot:new>60%</template>
       <template v-slot:sale>Storewide Sale</template>
