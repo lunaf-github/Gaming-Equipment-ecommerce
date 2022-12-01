@@ -1,4 +1,4 @@
-# fashion-ecommerce
+# Gaming Equipment Ecommerce
 
 ## Build Setup
 
