@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'fashion-ecommerce',
+    title: 'Gamer\'s Den',
     htmlAttrs: {
       lang: 'en'
     },
@@ -13,6 +13,12 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    link: [
+      {
+        rel:'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Montserrat:300,600|PT+Serif&display=swap'
+      }
     ]
   },
 
