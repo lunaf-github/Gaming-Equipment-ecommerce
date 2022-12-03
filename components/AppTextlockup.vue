@@ -62,7 +62,6 @@ export default {}
   }
   .img {
     grid-area: 1/3/6/4;
-    border: 1px solid red;
     max-width:950px;
 
 
