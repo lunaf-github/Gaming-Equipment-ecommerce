@@ -1,6 +1,8 @@
+export { default as AppFooter } from '../../components/AppFooter.vue'
+export { default as AppFooterLinks } from '../../components/AppFooterLinks.vue'
+export { default as AppNav } from '../../components/AppNav.vue'
 export { default as AppSalesBoxes } from '../../components/AppSalesBoxes.vue'
 export { default as AppTextlockup } from '../../components/AppTextlockup.vue'
-export { default as AppNav } from '../../components/app-nav.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

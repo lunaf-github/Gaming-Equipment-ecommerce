@@ -6,6 +6,8 @@ You can directly use them in pages and other components without the need to impo
 
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
+- `<AppFooter>` | `<app-footer>` (components/AppFooter.vue)
+- `<AppFooterLinks>` | `<app-footer-links>` (components/AppFooterLinks.vue)
+- `<AppNav>` | `<app-nav>` (components/AppNav.vue)
 - `<AppSalesBoxes>` | `<app-sales-boxes>` (components/AppSalesBoxes.vue)
 - `<AppTextlockup>` | `<app-textlockup>` (components/AppTextlockup.vue)
-- `<AppNav>` | `<app-nav>` (components/app-nav.vue)

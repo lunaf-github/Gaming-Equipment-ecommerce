@@ -1,11 +1,17 @@
 {
+  "AppFooter": {
+    "description": "Auto imported from components/AppFooter.vue"
+  },
+  "AppFooterLinks": {
+    "description": "Auto imported from components/AppFooterLinks.vue"
+  },
+  "AppNav": {
+    "description": "Auto imported from components/AppNav.vue"
+  },
   "AppSalesBoxes": {
     "description": "Auto imported from components/AppSalesBoxes.vue"
   },
   "AppTextlockup": {
     "description": "Auto imported from components/AppTextlockup.vue"
-  },
-  "AppNav": {
-    "description": "Auto imported from components/app-nav.vue"
   }
 }
