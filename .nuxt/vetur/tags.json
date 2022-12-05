@@ -1,4 +1,7 @@
 {
+  "AppFeatureProducts": {
+    "description": "Auto imported from components/AppFeatureProducts.vue"
+  },
   "AppFooter": {
     "description": "Auto imported from components/AppFooter.vue"
   },

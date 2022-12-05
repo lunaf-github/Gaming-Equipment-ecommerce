@@ -11,19 +11,21 @@
       <template v-slot:collection>Summer</template>
       <template v-slot:details>All accessories</template>
     </app-textlockup>
+    <app-feature-products />
   </div>
 </template>
 
 <script>
 import AppTextlockup from "~/components/AppTextlockup.vue";
 import AppSalesBoxes from "~/components/AppSalesBoxes.vue";
-
+import AppFeatureProducts from "../components/AppFeatureProducts.vue";
 
 export default {
   name: 'IndexPage',
   components: {
     AppTextlockup,
-    AppSalesBoxes 
+    AppSalesBoxes, 
+    AppFeatureProducts
   }
 }
 </script>

@@ -1,3 +1,4 @@
+export { default as AppFeatureProducts } from '../../components/AppFeatureProducts.vue'
 export { default as AppFooter } from '../../components/AppFooter.vue'
 export { default as AppFooterLinks } from '../../components/AppFooterLinks.vue'
 export { default as AppNav } from '../../components/AppNav.vue'
