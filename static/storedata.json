@@ -1,0 +1,91 @@
+[
+ {
+  "id": "9d436e98-1dc9-4f21-9587-76d4c0255e33",
+  "category":"Headset",
+  "name":"BINNUNE Wireless Gaming Headset with Microphone for PC PS4 PS5 Playstation 4 5, 2.4G Wireless Bluetooth USB Gamer Headphones with Mic for Laptop",
+  "brand":"BINNUNE",
+  "description": 
+    [
+      "[High Performance 2.4G+Bluetooth 5.0] BINNUNE wireless gaming headset combines high performance 2.4 GHz lossless wireless for Pro-level gaming audio on PlayStation and PC , with the convenience of simultaneous Bluetooth connectivity for most of your mobile devices.",
+      "[Hear Every Details] The 50mm driver plus 2.4G lossless wireless emphasizes both subtle and critical in-game background sounds, allowing you to hear very details, so you will never miss a step or shot during game playing.",
+      "[Extraordinary Battery Life] Thanks to an impressive 48-hour battery life and fast USB-C charging, the BINNUE gaming headset is your ideal for listening music or playing long session video games throughout the day on a single charge.",
+      "[Ultra- Low Latency Wireless Gaming] Features ultra-low latency 2.4GHz lossless wireless for high fidelity audio, the audio latency is less than 38ms which is far more better than Bluetooth 150ms, no audio and video to be out of sync issue, so you can enjoy an immersive lag-free wireless gaming experience.",
+      "[Ultra Compatible With Multiple Devices] Your game headset is compatible via 2.4GHz wireless connection on PC, PlayStation; 3.5mm audio jack is compatible with PC, Mac, laptop, PlayStation, Xbox, Nintendo Switch , cell phones and VR. Bluetooth is compatible with most of your Bluetooth enabled devices. (Please check the connectivity guide for compatibility on user manual)."
+    ],
+  "starrating": 4,
+  "price": 31.99,
+  "img": "headset1.jpg"
+ },
+ {  "id": "9d436e98-1dc9-4f21-9587-76d4c0255e33",
+ "category":"Headset",
+ "name":"HyperX Cloud II - Gaming Headset, 7.1 Surround Sound, Memory Foam Ear Pads, Durable Aluminum Frame, Detachable Microphone, Works with PC, PS5, PS4, Xbox Series X|S, Xbox One – Red",
+ "brand":"HyperX",
+ "description": 
+   [
+     "15-25kKhz Frequency Response.Headphones fit type:Over-Ear",
+     "Designed for comfort: Exceptionally comfortable memory foam ear cushions and padded leatherette headband help keep you focused on gaming",
+     "Supreme audio quality: Large 53 millimeter drivers provide high-quality audio. Hear in-game details better and get the in-game advantage on your opponents",
+     "7.1 virtual surround sound: Truly immerse yourself in your games with hardware-driven virtual 7.1 surround sound for precisely located audio",
+     "Passive noise cancellation: The closed ear cup design blocks out outside distractions to keep you in the game",
+     "Built to last: The solid, durable aluminum frame is built to withstand the blows of daily use",
+     "Detachable, noise-cancelling microphone: TeamSpeak and Discord certified so you can chat with your friends and your callouts will be heard loud and clear",
+     "Compatibility: 7.1 virtual surround sound on PC & Mac. Stereo on PS4, Xbox One, Nintendo Switch, and mobile devices"
+   ],
+ "starrating": 4.5,
+ "price": 49.99,
+ "img": "headset2.jpg"
+},
+{  "id": "bfa86b1c-9ebf-4555-987f-7b8bf7d27be7",
+"category":"Headset",
+"name":"SENZER SG500 Surround Sound Pro Gaming Headset with Noise Cancelling Microphone - Detachable Memory Foam Ear Pads - Portable Foldable Headphones for PC, PS4, PS5, Xbox One, Switch",
+"brand":"SENZER",
+"description": 
+  [
+    "[FOLDABLE & DETACHABLE EAR PADS]: Features flexible headphones with telescopic arms and detachable ear pads. The headphones fold inside the arm, making them perfect for easy storage and travelling and the ear pads are magnetic, allowing them to be conveniently attached and removed, making them easier to clean and maintain compared with other headphones.",
+    "[COMFORTABLE LIGHTWEIGHT DESIGN]: Comfortable for kids and adults alike, the detachable memory foam ear cushions are extremely lightweight, allowing for up to 8 hours usage without excess pressure build up, meaning you won't feel any discomfort even after many hours of gaming. The overall weight is only 0.66lb; approximately 40% lighter than standard gaming headsets.",
+    "[NOISE CANCELLING ANTI-STATIC MICROPHONE]: The bendable microphone arm can be fixed to any position to ensure the clearest voice pick-up, and filters out surrounding environmental noise and eliminates static. The Senzer SG500 noise cancelling headset with microphone provides real-time in game chat without delay, making it easier to communicate with team-mates, friends and family without unnecessary interruptions.",
+    "SURROUND SOUND CAPABLE: Proven to enhance your gaming performance, this surround sound gaming headset gives you crystal clear audio and provides you a truly immersive video game experience. Pick up the direction of gunfire, vehicles and voices more clearly, as well as enjoying a more enhanced audio experience as subtle sounds like footsteps, wind and rain are projected with more clarity and precision.",
+    "[PLUG AND PLAY MULTI-PLATFORM COMPATIBILITY]: Works with most modern devices which include a 3.5mm jack like PlayStation 4, Xbox One (Older version requires adaptor), Apple Mac, Laptop, PC & Mobile. No drivers or downloads required, simply Plug & Play, making it the ideal headset for travelling or as a gift, safe in the knowledge it will fit a multitude of devices."
+  ],
+"starrating": 4.5,
+"price": 39.99,
+"img": "headset3.jpg"
+},
+{  "id": "eca6b1c7-6b8c-4416-aae0-98cecdc18e92",
+"category":"Headset",
+"name":"Razer Kraken Gaming Headset: Lightweight Aluminum Frame, Retractable Noise Isolating Microphone, For PC, PS4, PS5, Switch, Xbox One, Xbox Series X & S, Mobile, 3.5 mm Audio Jack – Green",
+"brand":"Razer Kraken",
+"description": 
+  [
+    "Frequency Response 12 Hz – 28 kHz.Headphones fit type:Over-Ear",
+    "TheBest-Selling Gaming Peripherals Manufacturer in the US: Source - The NPD Group, Inc. U.S. Retail Tracking Service, Keyboards, Mice, PC Headset/Pc Microphone, Gaming Designed, based on dollar sales, 2017-2021",
+    "Immersive, 7.1 Surround Sound for Positional Audio: Outfitted with custom-tuned 50 millimeter drivers, capable of software-enabled surround sound (only available on Windows 10 64-bit)",
+    "All-Day Comfort: Oval, cooling gel-infused cushions that prevent overheating and pressure build-up",
+    "Retractable Noise Isolating Microphone: An improved cardioid mic reduces background and ambient noises for crystal-clear communication",
+    "In-Line Audio Controls: A built-in an analog volume control wheel and mic mute switch",
+    "Lightweight and Durable: Made of bauxite aluminum, the Kraken frame is flexible and designed to last"
+  ],
+"starrating": 4,
+"price": 39.99,
+"img": "headset4.jpg"
+},
+{  "id": "440e2eac-67ed-4407-993a-d9f6b7f15087",
+"category":"Headset",
+"name":"Logitech G535 LIGHTSPEED Wireless Gaming Headset - Lightweight on-ear headphones, flip to mute mic, stereo, compatible with PC, PS4, PS5, USB rechargeable - Black",
+"brand":"Logitech",
+"description": 
+  [
+    "LIGHTSPEED Wireless: Pro-grade LIGHTSPEED wireless technology provides 33 hours of battery life(1) and up to 12 meters of reliable wireless freedom",
+    "Lightweight and Comfortable: At only 236 grams, G535 is smaller and lighter than the G733; reversible suspension headband helps distribute weight and is adjustable for a customized fit",
+    "Plug and Play: Optimize your game time with an easy-to-use plug-and-play gaming headset; G535 uses a USB connection compatible with PC and PlayStation gaming devices",
+    "On-Ear Controls: Volume roller is located directly on the ear cup, to quickly turn up your game, music or comms; simply flip up microphone to mute and get it out of the way",
+    "40 mm Drivers: With 40 mm neodymium drivers, this wireless gaming headset delivers crisp, clear, and deep stereo sound that makes your game come alive",
+    "All-Day Comfort: Comfortable soft memory foam ear cups and sports mesh material are great for extended use",
+    "PC and Console Compatible: PlayStation 5, PlayStation 4",
+    "G535 is Discord Certified to guarantee crystal clear communication performance with amazing audio and voice clarity"
+  ],
+"starrating": 4.5,
+"price": 79.99,
+"img": "headset5.jpg"
+}
+]
