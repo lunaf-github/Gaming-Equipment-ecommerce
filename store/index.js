@@ -8,7 +8,7 @@ export const state = () => ({
 
 
 export const getters = {
- featuredProducts: state.storedata.slice(0,3),
+ featuredProducts: state => state.storedata.slice(0,3),
 }
 
 export const mutations = {}

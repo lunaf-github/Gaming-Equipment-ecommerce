@@ -36,4 +36,8 @@ export default {
     flex-direction: column;
     align-items: center;
   }
+
+  main {
+  width: 75vw;
+}
 </style>
