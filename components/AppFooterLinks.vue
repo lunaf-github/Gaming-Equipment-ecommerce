@@ -26,7 +26,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
  section {
   width:80%;
   margin-left: 10%;

@@ -5,11 +5,9 @@
    </h2>
    <div class="featureditems">
      <div class="item" v-for="product in featuredProducts" :key="product.id">
-       <NuxtLink :to="`product/${product.id}`"> 
          <img :src="`/products/${product.img}`" />
-         <!-- <h3>{{ product.name }}</h3> -->
-         <h4>{{ product.price | dollar }}</h4>
-       </NuxtLink>
+         <h3>{{ product.name }}</h3>
+         <h4>{{( product.price)}}</h4>
      </div>
    </div>
   </section>
@@ -25,6 +23,8 @@ export default {
   }
 }
 </script>
+
+
 
 <style lang="scss" scoped>
   section {
@@ -100,7 +100,7 @@ export default {
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 1fr;
       grid-column-gap: 20px;
-      grid-row-gap: 0px;
+      // grid-row-gap: 10px;
       div {
         padding: 40px 50px;
       }

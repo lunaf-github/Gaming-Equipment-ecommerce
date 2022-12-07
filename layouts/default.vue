@@ -1,7 +1,9 @@
 <template>
   <div>
    <app-nav/>
-   <nuxt/>
+   <main>
+    <nuxt/>
+   </main>
    <app-footer/>
   </div>
 </template>
@@ -19,6 +21,7 @@ import AppFooter from '../components/AppFooter.vue'
 </script>
 
 <style scoped>
+
 
 body {
   border: 10px solid #ccc;

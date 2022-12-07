@@ -31,13 +31,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 
   main {
-  width: 75vw;
-}
+    width: 75vw;
+  }
 </style>
