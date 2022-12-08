@@ -1,5 +1,12 @@
 [
   {
+    "name": "headsets",
+    "path": "/headsets",
+    "component": "/home/hduser/Documents/Fernando/Projects/fashion-ecommerce/pages/headsets.vue",
+    "chunkName": "pages/headsets",
+    "_name": "_0b793359"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/home/hduser/Documents/Fernando/Projects/fashion-ecommerce/pages/index.vue",

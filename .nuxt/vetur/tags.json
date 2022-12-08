@@ -14,6 +14,9 @@
   "AppSalesBoxes": {
     "description": "Auto imported from components/AppSalesBoxes.vue"
   },
+  "AppStoreGrid": {
+    "description": "Auto imported from components/AppStoreGrid.vue"
+  },
   "AppTextlockup": {
     "description": "Auto imported from components/AppTextlockup.vue"
   }

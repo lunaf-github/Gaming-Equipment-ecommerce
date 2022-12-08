@@ -22,7 +22,7 @@
       <nuxt-link to="/mouse">Mouse Devices</nuxt-link>
      </li>
      <li>
-      <nuxt-link to="/speaker">Speakers</nuxt-link>
+      <nuxt-link to="/headsets">Headsets</nuxt-link>
      </li>
      <li>
       <nuxt-link to="/monitor">Monitors</nuxt-link>

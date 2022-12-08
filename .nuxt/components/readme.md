@@ -11,4 +11,5 @@ You can directly use them in pages and other components without the need to impo
 - `<AppFooterLinks>` | `<app-footer-links>` (components/AppFooterLinks.vue)
 - `<AppNav>` | `<app-nav>` (components/AppNav.vue)
 - `<AppSalesBoxes>` | `<app-sales-boxes>` (components/AppSalesBoxes.vue)
+- `<AppStoreGrid>` | `<app-store-grid>` (components/AppStoreGrid.vue)
 - `<AppTextlockup>` | `<app-textlockup>` (components/AppTextlockup.vue)
