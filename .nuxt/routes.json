@@ -1,5 +1,12 @@
 [
   {
+    "name": "Accessories",
+    "path": "/Accessories",
+    "component": "/home/hduser/Documents/Fernando/Projects/fashion-ecommerce/pages/Accessories.vue",
+    "chunkName": "pages/Accessories",
+    "_name": "_7f17eed0"
+  },
+  {
     "name": "Desks",
     "path": "/Desks",
     "component": "/home/hduser/Documents/Fernando/Projects/fashion-ecommerce/pages/Desks.vue",
