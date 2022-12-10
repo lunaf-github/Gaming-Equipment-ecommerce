@@ -11,7 +11,6 @@
          :rating="item.starrating"
          active-color="#000"
          :star-size="15"
-         show-rating= false
          style="margin: 5px 0"
        ></star-rating>
        <h3>{{ item.name }}</h3>

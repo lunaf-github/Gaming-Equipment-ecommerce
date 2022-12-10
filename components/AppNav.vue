@@ -16,10 +16,10 @@
       <nuxt-link to="/chair">Chairs</nuxt-link>
      </li>
      <li>
-      <nuxt-link to="/keyboard">Keyboards</nuxt-link>
+      <nuxt-link to="/keyboards">Keyboards</nuxt-link>
      </li>
      <li>
-      <nuxt-link to="/mouse">Mouse Devices</nuxt-link>
+      <nuxt-link to="/MouseDevices">Mouse Devices</nuxt-link>
      </li>
      <li>
       <nuxt-link to="/headsets">Headsets</nuxt-link>

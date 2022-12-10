@@ -2,7 +2,7 @@
  {
   "id": "9d436e98-1dc9-4f21-9587-76d4c0255e33",
   "category":"Headset",
-  "name":"BINNUNE Wireless Gaming Headset with Microphone for PC PS4 PS5 Playstation 4 5, 2.4G Wireless Bluetooth USB Gamer Headphones with Mic for Laptop",
+  "name":"BINNUNE Wireless Gaming Headset",
   "brand":"BINNUNE",
   "description": 
     [
@@ -16,9 +16,27 @@
   "price": 31.99,
   "img": "headset1.jpg"
  },
+ {
+  "id": "9e436f01-1zv9-452L-9587-76d4c0255e91",
+  "category":"Mouse",
+  "name":"Logitech G502 HERO",
+  "brand":"Logitech",
+  "description": 
+    [
+      "Hero 25K sensor through a software update from G HUB, this upgrade is free to all players: Our most advanced, with 1:1 tracking, 400-plus ips, and 100 - 25,600 max dpi sensitivity plus zero smoothing, filtering, or acceleration",
+      "11 customizable buttons and onboard memory: Assign custom commands to the buttons and save up to five ready to play profiles directly to the mouse",
+      "Adjustable weight system: Arrange up to five removable 3.6 grams weights inside the mouse for personalized weight and balance tuning",
+      "Programmable RGB Lighting and Lightsync technology: Customize lighting from nearly 16.8 million colors to match your team's colors, sport your own or sync colors with other Logitech G gear",
+      "Mechanical switch button tensioning: Metal spring tensioning system and pivot hinges are built into left and right gaming mouse buttons for a crisp, clean click feel with rapid click feedback",
+      "1 year hardware limited warranty"
+    ],
+  "starrating": 4,
+  "price": 33.98,
+  "img": "Mouse1.jpg"
+ },
  {  "id": "9d436b98-1dc9-4f33-9599-76d4c0255e34",
  "category":"Headset",
- "name":"HyperX Cloud II - Gaming Headset, 7.1 Surround Sound, Memory Foam Ear Pads, Durable Aluminum Frame, Detachable Microphone, Works with PC, PS5, PS4, Xbox Series X|S, Xbox One – Red",
+ "name":"HyperX Cloud II",
  "brand":"HyperX",
  "description": 
    [
@@ -37,7 +55,7 @@
 },
 {  "id": "bfa86b1c-9ebf-4555-987f-7b8bf7d27be7",
 "category":"Headset",
-"name":"SENZER SG500 Surround Sound Pro Gaming Headset with Noise Cancelling Microphone - Detachable Memory Foam Ear Pads - Portable Foldable Headphones for PC, PS4, PS5, Xbox One, Switch",
+"name":"SENZER SG500",
 "brand":"SENZER",
 "description": 
   [
@@ -53,7 +71,7 @@
 },
 {  "id": "eca6b1c7-6b8c-4416-aae0-98cecdc18e92",
 "category":"Headset",
-"name":"Razer Kraken Gaming Headset: Lightweight Aluminum Frame, Retractable Noise Isolating Microphone, For PC, PS4, PS5, Switch, Xbox One, Xbox Series X & S, Mobile, 3.5 mm Audio Jack – Green",
+"name":"Razer Kraken Gaming Headset",
 "brand":"Razer Kraken",
 "description": 
   [
@@ -71,7 +89,7 @@
 },
 {  "id": "440e2eac-67ed-4407-993a-d9f6b7f15087",
 "category":"Headset",
-"name":"Logitech G535 LIGHTSPEED Wireless Gaming Headset - Lightweight on-ear headphones, flip to mute mic, stereo, compatible with PC, PS4, PS5, USB rechargeable - Black",
+"name":"Logitech G535",
 "brand":"Logitech",
 "description": 
   [
@@ -87,5 +105,164 @@
 "starrating": 4.5,
 "price": 79.99,
 "img": "headset5.jpg"
-}
+},
+{
+  "id": "9d436e98-1dc9-4f21-9587-76d4c0255e33",
+  "category":"Mouse",
+  "name":"Redragon M612",
+  "brand":"Redragon",
+  "description": 
+    [
+      "Pentakill, 5 DPI Levels - Geared with 5 redefinable DPI levels (default as: 500/1000/2000/3000/4000), easy to switch between different game needs. Dedicated demand of DPI options between 500-8000 is also available to be processed by software.",
+      "Any Button is Reassignable - 11 programmable buttons are all editable with customizable tactical keybinds in whatever game or work you are engaging. 1 rapid fire + 2 side macro buttons offer you a better gaming and working experience.",
+      "Comfort Grip with Details - The skin-friendly frosted coating is the main comfort grip of the mouse surface, which offers you the most enjoyable fingerprints-free tactility. The left side equipped with ubber texture strengthen the friction and made the mouse easier to be controlled.",
+      "5 Decent Backlit Modes - Turn the backlit on and make some kills in your gaming battlefield. The hyped dynamic RGB backlit vibe will never let you down when decorating your gaming space, it would be better with other Redragon accessories with lights on.",
+      "Fatigue Killer with Ergonomic Design - Solid frame with a streamlined and general claw-grip design offers each gamer a satisfying and comfortable gaming experience with less fatigue even though after hours of use."
+    ],
+  "starrating": 0,
+  "price": 17.99,
+  "img": "Mouse2.jpg"
+ },
+ {
+  "id": "0g536eF81-1WX9-4V31-9533-88d4c1255e01",
+  "category":"Mouse",
+  "name":"UtechSmart Venus Pro",
+  "brand":"UtechSmart",
+  "description": 
+    [
+      "【Extensive Fully Programmable Buttons】16 customizable buttons can improve your gaming skills and performance by complex custom button macro coding of reconfiguration and assignment. The button custom function combines multiple keys into one button that reducing your arsenal of spells (actions) and response time. 12 of 16 thumb grip programmable buttons were designed by different inclination angles to fit for your thumb tip to click.",
+      "【Dual Modes with Ultra-Speed Wireless Technology】UtechSmart VENUS Pro RGB Wireless MMO Gaming Mouse is a new revolution of RGB MMO gaming mouse. It has 2.4 GHz data transmission technology with Mini signal receiver(Nano) and stable 1. 5m wire transmission that provides professional-level performance. VENUS Pro overcomes the traditional limitation of wireless latency and connectivity which offers stable and fast data transmission with 10-meter reception boundary. You can take this mouse anywhere!",
+      "【Endurable Battery Lifetime】 UtechSmart Venus Pro Wireless RGB MMO gaming mouse has special auto sleeping mode and low power consumption mode or extending the battery life of wireless mode. Large battery (1000mA) capacity which offers to recharge over 300 times and single 2 hours fully charge. The wireless mode lasts up to 70 hours that fulfill your long-time gaming experience. Moreover, UtechSmart actuation software provides battery specify consumption monitoring for you.",
+      "【Customizable Mouse High Precision Optical Sensor】Thousands of customers and professional gamers have tested and verified its function. Venus Pro has an UtechSmart custom PixArt PMW3335 ultra-accurate Optical sensor. Up to 16000 DPI with 5 DPI switchable stages and 1000 Hz polling rate that offers you an incomparable MMO and FPS gaming experience. The huge adjustable DPI range from 100-16000 comes with UtechSmart user-friendly software that can perfectly tweak the performance of mouse accuracy.",
+      "【Ergonomic Design Ensures Your Comfortable】Great as a real mouse stuck in your hand. The UtechSmart Venus Pro Wireless RGB MMO gaming mouse is flawlessly designed to alleviate wrist fatigue while being able to firmly hold the mouse in your hand. The grinding coating on the mouse surface increases the friction between your hand and the mouse. Grinding coating also provides gamer a extra comfortable sweat-resistant and skin-friendly gaming mouse.",
+      "【Amazing RGB Lighting and Reliable Buttons】Fully customize RGB lighting up to 16 Million colors and 4 programmable RGB modes (Steady Respiration Neon and Matte) by UtechSmart software. Software can be easily installed by inserting the drive software card into the USB port of your laptop. It's compatible with Windows98SE/ME/2000/XP/Vista/Win7 Mac10. For the gamer, the switch of a button is applied with a great microswitch which provides 10 million times click duration and without double click problem!",
+      "【You are our VIP customer】For each of you who purchased UtechSmart RGB MMO Wireless gaming mouse, we have lifetime product care. If your mouse has any problem, that you will get refund or a new mouse replacement. No any questioning. All you need to do is contact our CS team (Click on the store name). We hope you will have a wonderful shopping experience."
+    ],
+  "starrating": 4,
+  "price": 47.99,
+  "img": "Mouse3.jpg"
+ },
+ {
+  "id": "9d436e98-1dc9-4f21-9587-76d4c0255e33",
+  "category":"Mouse",
+  "name":"Corsair Nightsword",
+  "brand":"Corsair",
+  "description": 
+    [
+      "Corsair exclusive software automatically detects the center of gravity in real time, allowing you to adjust weight between 119g and 141g and fine tune balance to perfectly fit your grip",
+      "A custom PixArt PMW3391 native 18, 000 DPI optical sensor, adjustable in 1 DPI resolution steps, gives you total sensitivity customization and ultra accurate tracking",
+      "Built with a comfortable contoured shape that naturally fits your hand, with high-performance rubber grips inspired by Pro sports equipment",
+      "Ten fully programmable buttons let you customize your gaming, with the in game advantage of powerful macros and key Remaps",
+      "Includes two sets of weights with six mounting locations, Offering 120 different weight and balance configurations for a precisely calibrated gaming experience"
+    ],
+  "starrating": 4,
+  "price": 66.70,
+  "img": "Mouse4.jpg"
+ },
+ {
+  "id": "9d4d6101-1dc0-4fg1-95c7-81d4cY255eWW",
+  "category":"Keyboard",
+  "name":"SteelSeries Apex 3 TKL",
+  "brand":"SteelSeries",
+  "description": 
+    [
+      "The compact tenkeyless design is the most popular form factor used by the pros, allowing you to position the keyboard for comfort and to maximize in-game performance.",
+      "Our whisper quiet gaming switches with anti-ghosting technology for keystroke accuracy are made from durable low friction material for near silent use and guaranteed performance for over 20 million keypresses.",
+      "Designed with IP32 Water & Dust Resistant for extra durability to prevent damage from liquids and dust particles, so you can continue to play no matter what happens to your keyboard.",
+      "PrismSync RGB Illumination allows you to choose from millions of colors and effects from reactive lighting to interactive lightshows that bring RGB to the next level.",
+      "Dedicated Multimedia Controls with a clickable volume roller and media keys allowing you to adjust brightness, rewind, skip or pause all at the touch of a button."
+    ],
+  "starrating": 4,
+  "price": 43.10,
+  "img": "Keyboard1.jpg"
+ },
+ {
+  "id": "9d455e33-1dcv-4f2F-15X7-76GGc0255e76",
+  "category":"Keyboard",
+  "name":"Dacoity Gaming Keyboard",
+  "brand":"Dacoity",
+  "description": 
+    [
+      "【Ergonomic Design with Wrist Rest】This silent keyboard features a scientific stepped keycap design to maximize hand comfort for long hours of gaming or work. It also provides you with an ergonomic typing angle (7°) and wrist support during use. All keys have a soft feel and no loud clicks. It will not affect others when staying up late typing or playing games, it is very suitable for office or games.",
+      "【LED Backlit Light Up Keyboard】There are 2 light-up modes and 3 levels of brightness for choice. ☼: Static Backlit/turn off; FN+☼: Dynamic backlight. Fn+PgUp: Adjust the brightness plus; Fn+PgDn: Adjust the brightness reduction. FN+ +/-: Adjust the speed of the dynamic backlight. (Note: the light is not RGB, the light color cannot be changed).",
+      "【Durable Metal Panel Keyboard】This rainbow backlit keyboard is designed with an aluminum alloy panel, which not only improves the overall texture of the USB keyboard but also greatly improves the durability and water resistance. The metal frame on the keyboard is also coated with rubber oil, which is skin-friendly and feels more comfortable. At the same time, there are 4 drainage holes at the bottom of the led keyboard, you don't worry about spilled liquids that will damage the computer keyboard.",
+      "【Multi-Media & Anti Ghosting】12 multimedia keys for your gaming operation or work efficiency. 19 anti-ghosting keys, every click is never lost, ensuring smooth typing. You can interchange WSAD keys with arrow keys by pressing FN+W and lock/unlock the WIN key by pressing N+WIN. (Note: Multimedia keys are unavailable on Mac)",
+      "【Strong Compatibility & Quality Assurance】Constructed with a classic crater structure, this waterproof keyboard can withstand 50 million keystrokes. No matter how long you use it, the laser-engraved letters on the keycaps are durable and never fade. Removable keycaps for quick cleaning without worrying about dust or dirt. It supports Plug & Play and is widely compatible with Windows 95/98/XP/2000/ME/VISTA/7/8/9/10, Mac.",
+      "【You are our VIP customer】Dacoity wired keyboard that meets the need of gamers, typists, programmers, and writers, and combines your office and gaming experience. If you have any quality problems, please contact customer service. We offer 180 days refund or replacement and a free-time warranty for the quality problem."
+    ],
+  "starrating": 4,
+  "price": 24.99,
+  "img": "Keyboard2.jpg"
+ },
+ {
+  "id": "F9c36eb3-1dc9-4f21-z585-7cd4c02SSe09",
+  "category":"Keyboard",
+  "name":"Snpurdiri 60%",
+  "brand":"Snpurdiri",
+  "description": 
+    [
+      "【Classic 60% Compact Design】This 60% gaming keyboard has a perfect size and it's good for all environnement, business travel games office home use, without Numpad, more practical for Gamers and Typist, give more space to your desktop.",
+      "【Ergonomic Design and Mechanical Feel】The mini gaming keyboard key height is designed according to ergonomics,and it is not easy to fatigue after long-term use. Using advanced imitation mechanical technology, one of the attractive features is the mechanical feeling.It also belongs to a relatively silent membrane gaming keyboard.",
+      "【Cool RGB Backlit Effect】The 60% rgb keyboard include 6 backlight effects and 8 backlight color switching. Different RGB setting enriches your typing time. Lighting speed and level can also be adjusted according to your need.Now,Key cap upgraded to double - color injection molding, character transparent luminous.",
+      "【Simple Elegant Personality】For some small keyboard, if you are tired of monotones, you can choose this elegant and mature black and white matching classic style. In addition,detachable cable makes this portable gaming keboard connecting simple and easy to carry. USB Type-C connection also provide more stable transmission.",
+      "【After-sales Guarantee】We maintain continuous improvement of product quality.For example, the Snpurdiri 60 keyboard is upgraded to two-color injection molding, and the character is transparent.We make every effort to ensure the quality of Snpurdiri 60 keyboard.Your satisfaction and happiness will be our motivation and direction to pursue continuous product upgrades!"
+    ],
+  "starrating": 4,
+  "price": 28.99,
+  "img": "Keyboard3.jpg"
+ },
+ {
+  "id": "9d436e98-1dc9-4f21-9587-76d4c0255e33",
+  "category":"",
+  "name":"",
+  "brand":"",
+  "description": 
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+  "starrating": 0,
+  "price": 0,
+  "img": ""
+ },
+ {
+  "id": "9d436e98-1dc9-4f21-9587-76d4c0255e33",
+  "category":"",
+  "name":"",
+  "brand":"",
+  "description": 
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+  "starrating": 0,
+  "price": 0,
+  "img": ""
+ },
+ {
+  "id": "9d436e98-1dc9-4f21-9587-76d4c0255e33",
+  "category":"",
+  "name":"",
+  "brand":"",
+  "description": 
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+  "starrating": 0,
+  "price": 0,
+  "img": ""
+ }
 ]

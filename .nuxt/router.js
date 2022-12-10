@@ -4,7 +4,10 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+const _7b4fa162 = () => interopDefault(import('../pages/Desks.vue' /* webpackChunkName: "pages/Desks" */))
 const _0b793359 = () => interopDefault(import('../pages/headsets.vue' /* webpackChunkName: "pages/headsets" */))
+const _09393658 = () => interopDefault(import('../pages/Keyboards.vue' /* webpackChunkName: "pages/Keyboards" */))
+const _eb2c8b80 = () => interopDefault(import('../pages/MouseDevices.vue' /* webpackChunkName: "pages/MouseDevices" */))
 const _6caa295a = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -19,9 +22,21 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/Desks",
+    component: _7b4fa162,
+    name: "Desks"
+  }, {
     path: "/headsets",
     component: _0b793359,
     name: "headsets"
+  }, {
+    path: "/Keyboards",
+    component: _09393658,
+    name: "Keyboards"
+  }, {
+    path: "/MouseDevices",
+    component: _eb2c8b80,
+    name: "MouseDevices"
   }, {
     path: "/",
     component: _6caa295a,

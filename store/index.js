@@ -11,6 +11,8 @@ export const state = () => ({
 export const getters = {
  featuredProducts: state => state.storedata.slice(0,3),
  headsets: state => state.storedata.filter(el => el.category === "Headset"),
+ mouseDevices: state => state.storedata.filter(el => el.category === "Mouse"),
+ keyboards: state => state.storedata.filter(el => el.category === "Keyboard")
 }
 
 export const mutations = {}
