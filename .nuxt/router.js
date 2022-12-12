@@ -8,6 +8,7 @@ const _7f17eed0 = () => interopDefault(import('../pages/Accessories.vue' /* webp
 const _7b4fa162 = () => interopDefault(import('../pages/Desks.vue' /* webpackChunkName: "pages/Desks" */))
 const _0b793359 = () => interopDefault(import('../pages/headsets.vue' /* webpackChunkName: "pages/headsets" */))
 const _09393658 = () => interopDefault(import('../pages/Keyboards.vue' /* webpackChunkName: "pages/Keyboards" */))
+const _619b18be = () => interopDefault(import('../pages/Monitors.vue' /* webpackChunkName: "pages/Monitors" */))
 const _eb2c8b80 = () => interopDefault(import('../pages/MouseDevices.vue' /* webpackChunkName: "pages/MouseDevices" */))
 const _6caa295a = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -38,6 +39,10 @@ export const routerOptions = {
     path: "/Keyboards",
     component: _09393658,
     name: "Keyboards"
+  }, {
+    path: "/Monitors",
+    component: _619b18be,
+    name: "Monitors"
   }, {
     path: "/MouseDevices",
     component: _eb2c8b80,

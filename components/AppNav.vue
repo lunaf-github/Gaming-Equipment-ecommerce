@@ -25,7 +25,7 @@
       <nuxt-link to="/headsets">Headsets</nuxt-link>
      </li>
      <li>
-      <nuxt-link to="/monitor">Monitors</nuxt-link>
+      <nuxt-link to="/Monitors">Monitors</nuxt-link>
      </li>
      <li>
       <nuxt-link to="/cart">Cart</nuxt-link>

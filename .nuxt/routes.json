@@ -28,6 +28,13 @@
     "_name": "_09393658"
   },
   {
+    "name": "Monitors",
+    "path": "/Monitors",
+    "component": "/home/hduser/Documents/Fernando/Projects/fashion-ecommerce/pages/Monitors.vue",
+    "chunkName": "pages/Monitors",
+    "_name": "_619b18be"
+  },
+  {
     "name": "MouseDevices",
     "path": "/MouseDevices",
     "component": "/home/hduser/Documents/Fernando/Projects/fashion-ecommerce/pages/MouseDevices.vue",

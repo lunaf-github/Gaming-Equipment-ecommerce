@@ -197,7 +197,7 @@
  {
   "id": "F9c36eb3-1dc9-4f21-z585-7cd4c02SSe09",
   "category":"Keyboard",
-  "name":"Snpurdiri 60%",
+  "name":"Snpurdiri 60",
   "brand":"Snpurdiri",
   "description": 
     [
@@ -212,7 +212,95 @@
   "img": "Keyboard3.jpg"
  },
  {
-  "id": "9d436e98-1dc9-4f21-9587-76d4c0255e33",
+  "id": "9W436e96-0dDa-zE2L-9S85-16FccO2S3e22",
+  "category":"Keyboard",
+  "name":"Razer Huntsman Mini",
+  "brand":"Razer",
+  "description": 
+    [
+      "Faster Than Legacy Mechanical Switches: Razer Optical switches use light-based actuation, registering key presses at the speed of light (30% shorter actuation distance than other clicky switches at 1.5 mm) with satisfying, clicky feedback",
+      "Ultimate Personalization & Gaming Immersion with Razer Chroma: Fully syncs with popular games, Razer hardware, Philips Hue, and gear from 30plus partners; supports 16.8 million colors on individually backlit keys",
+      "Quality, Aluminum Construction: Covered with a matte, aluminum top frame for increased structural integrity",
+      "Oil-Resistant Doubleshot PBT Keycaps: Made of textured, high-grade PBT for a more durable and textured finish less prone to long-term grime buildup",
+      "Fully Programmable Macros: Razer Hypershift allows for all keys and keypress combinations to be remapped to execute complex commands. Gaming mode option"
+    ],
+  "starrating": 5,
+  "price": 79.99,
+  "img": "Keyboard4.jpg"
+ },
+ {
+  "id": "E9436e98-1dE9-4B2P-988O-76Y4M0238eE6",
+  "category":"Monitor",
+  "name":"GTEK 165Hz Gaming Monitor",
+  "brand":"GTEK",
+  "description": 
+    [
+      "ESPORT DISPLAY: 24 inch Full HD 1920 x 1080 @ 165Hz (supports 144Hz) refresh rate and 1ms response time defeats ghosting and provides an immersive gaming experience at the highest tier in FPS and other real-time games",
+      "ULTRA-FAST: Our ultra fast screens eliminate image tearing, smearing and motion blur to create advantages for all gamers and allows for perfectly smooth game or picture motion; creating advantages for split second decisions when gaming",
+      "FRAMELESS DESIGN: Fiercely designed and constructed for the perfect gaming platform with less wasted room from your monitor. With the ultra-thin bezel design, multi-monitor setups are seamless and connected",
+      "FLEXIBLE CONNECTIVITY: The broad range of available connections for the gaming monitor is DisplayPort, HDMI. The wide range of connectivity allow for laptops, computers and gaming consoles to easily connect",
+      "FREE-SYNC: Free Sync technology provides variable refresh rates that decreases lag and motion blur to create a stutter and tear free advantage in first person shooters, racers and real-time strategy games"
+    ],
+  "starrating": 4,
+  "price": 139.87,
+  "img": "Monitor1.jpg"
+ },
+ {
+  "id": "Yd636ec1-edcR-cf2g-9D87-7ed402553ct",
+  "category":"Monitor",
+  "name":"Sceptre 30-inch Curved Gaming Monitor",
+  "brand":"Sceptre",
+  "description": 
+    [
+      "30\" Curved Gaming Monitor 2560 x 1080 Full HD Resolution. Response Time- 5ms GTG.Aspect Ratio: 21:9. Viewing Angle is 170° (H) / 170° (V). Brightness(typ) is 250. Without Stand (W x H x D)-27.82 x 12.64 x 3.69 inches",
+      "DP Up to 200Hz Refresh Rate / HDMI 2. 0 Up to 120Hz Refresh Rate: More than double the standard refresh rate, 200Hz gives gamers an edge in visibility as frames transition instantly, leaving behind no blurred images",
+      "AMD Free Sync With Free Sync, gamers now enjoy smooth video and seamless on the spot movement through their fast paced games. Free Sync is an AMD technology that nearly eliminates tearing and stuttering due to differences between a graphics card's frame rate and a monitor's refresh rate.",
+      "FPS-RTS FPS and RTS are Scepter's custom set display settings built for an enhanced gaming experience. FPS (First Person Shooter) , RTS (Real-Time Strategy).",
+      "Blue Light Shift Reduce your monitors blue light to protect you from eye fatigue, irritation and strains. This enables you to work on you documents, watch movies, or play games more comfortably for extended periods",
+      "Gaming LED Light",
+      "VESA Wall Mount Pattern Using the VESA wall mount pattern, easily mount your Scepter LED monitor on the wall in a manner that is both aesthetically pleasing and conveniently practical. You will be able to save ample space and view the screen in a position that affords the greatest visibility possible."
+    ],
+  "starrating": 4,
+  "price": 289,
+  "img": "Monitor2.jpg"
+ },
+ {
+  "id": "Yd636ec1-edcR-cf2g-9D87-7ed402553ct",
+  "category":"Monitor",
+  "name":"SAMSUNG 32” Odyssey G5",
+  "brand":"Samsung",
+  "description": 
+    [
+      "UNMATCHED IMMERSION: Get your head in the game with Odyssey’s 1000R curved panel, which matches the curvature of the human eye for maximum immersion and minimal eye strain",
+      "STUNNING WQHD: Your gaming world, now astoundingly lifelike; Packing in 1.7 times the pixel density of Full HD, WQHD resolution boasts incredibly detailed, pin-sharp images; Experience a fuller view with more space to take in the action",
+      "EXPRESS 144hz REFRESH RATE: Get more than double your potential frame production with the Odyssey G5; With a 144hz super smooth refresh rate, you’ll never want to go back to a traditional screen",
+      "LIGHTNING FAST 1ms RESPONSE TIMES: A fraction of a second can be the difference between your destruction or your enemy’s; With Odyssey’s grey to grey 1ms response time, you can be sure that you’re receiving information as fast as technologically possible",
+      "AMD FREESYNC PREMIUM: Features adaptive sync technology which reduces screen tearing, stutter, and input latency; Low framerate compensation ensures every scene flows seamlessly",
+      "AWE-INSPIRING GRAPHICS WITH HDR10: A kaleidoscope of shades brings game scenes to life more vibrantly than ever before; Uncover the secrets hiding in the shadows with deep dark blacks, luminous whites, and outstandingly detailed resolution"
+    ],
+  "starrating": 5,
+  "price": 299,
+  "img": "Monitor3.jpg"
+ },
+ {
+  "id": "YG636ec1-edcR-cf2g-9D87-7ed40255cVY",
+  "category":"Monitor",
+  "name":"LG 24GQ50F-B",
+  "brand":"LG",
+  "description": 
+    [
+      "Designed especially for gaming, this display features a Full HD display for high color reproduction and image quality",
+      "High 165-Hertz refresh rate with 1-millisecond Motion Blur Reduction (MBR) is ideal for fast-paced games",
+      "AMD FreeSync Premium improves baseline FreeSync technology, with fluid and tear-free gameplay and video with compatible video cards",
+      "Customize your settings for different games with the Enhanced Gaming UI. OnScreen Control software allows you to control various display settings with a single mouse click",
+      "Three-side, virtually borderless bezel and tilt adjustment is the ideal screen for a desktop setup, or mount with 75 x 75 mm bracket sizing"
+    ],
+  "starrating": 4,
+  "price": 189.99,
+  "img": "Monitor4.jpg"
+ },
+ {
+  "id": "YG636ec1-edcR-cf2g-9D87-7ed40255cVY",
   "category":"",
   "name":"",
   "brand":"",
@@ -230,7 +318,7 @@
   "img": ""
  },
  {
-  "id": "9d436e98-1dc9-4f21-9587-76d4c0255e33",
+  "id": "YG636ec1-edcR-cf2g-9D87-7ed40255cVY",
   "category":"",
   "name":"",
   "brand":"",
@@ -248,7 +336,7 @@
   "img": ""
  },
  {
-  "id": "9d436e98-1dc9-4f21-9587-76d4c0255e33",
+  "id": "YG636ec1-edcR-cf2g-9D87-7ed40255cVY",
   "category":"",
   "name":"",
   "brand":"",
