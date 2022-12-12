@@ -31,7 +31,7 @@
        type="range"
        :min="min"
        :max="max"
-       v-model="pricerange"
+       v-model= "pricerange"
        step="0.1"
      />
      <span class="min">${{ min }}</span>
@@ -42,6 +42,7 @@
 
 
 <script>
+
 import StarRating from "vue-star-rating/src/star-rating.vue";
 
 export default {
@@ -53,17 +54,31 @@ export default {
  data() {
    return {
      min: 0,
-     max: 200,
-     pricerange: 200
+     max:0,
+     pricerange: 0
    }
  },
  computed: {
    filteredprice() {
-     return this.data.filter(el => el.price < this.pricerange);
-   }
+     return this.data.filter(el => el.price <= this.pricerange);
+   },
  },
  components: {
    StarRating
+ },
+ methods: {
+   getMaxRange(){
+     let max = 0;
+     this.data.forEach(el => {
+      if(el.price > max) max = el.price;
+     })
+     
+     this.pricerange = max;
+     this.max = max;
+   }
+ },
+ mounted(){
+  this.getMaxRange();
  }
 }
 </script>
