@@ -301,42 +301,56 @@
  },
  {
   "id": "YG636ec1-edcR-cf2g-9D87-7ed40255cVY",
-  "category":"",
-  "name":"",
-  "brand":"",
+  "category":"Desk",
+  "name":"MOTPK Gaming Desk",
+  "brand":"MOTPK",
   "description": 
     [
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Large Monitor Shelf: We developed this MOTPK small corner desk with a large monitor shelf that holds up to 40LBs (about one monitor arm + two 24-inch monitors + one PS5), 29.5\" to 36.7\" height, provides a more ergonomic gaming experience.",
+      "Unique LED Strips Lights: MOTPK developed high-quality LED Strips to bring gamers the best gaming experience: multi-color, multi-mode, and anti-fire.",
+      "Power Outlets: MOTPK corner gaming desk includes a built-in socket with 2-Outlets & 2 USB Ports to charge your devices.",
+      "Small L Shaped Design: MOTPK L-shaped gaming desks are specially designed for Gamers and dedicated to providing a superior gaming experience. This small L-shaped design can perfectly fit a corner, save space, and give an ergonomic gaming experience to each gamer.",
+      "STURDY & STEADY: The MOTPK gaming table utilizes an ultra-stable updated Z-shaped leg design and qualified table board to meet any serious gamer's demands. The Sturdy table top is supported by a solid steel frame featuring up to 221lbs of load-bearing capacity. Adjustable leg pads ensure the table keeps a sturdy construction even on uneven ground without wobbling."
     ],
-  "starrating": 0,
-  "price": 0,
-  "img": ""
+  "starrating": 4,
+  "price": 239.99,
+  "img": "Desk1.jpg"
  },
  {
-  "id": "YG636ec1-edcR-cf2g-9D87-7ed40255cVY",
-  "category":"",
-  "name":"",
-  "brand":"",
+  "id": "YG636ecM-edcR-cfcg-9D87-7edC0255cVY",
+  "category":"Desk",
+  "name":"VITESSE Gaming Desk 63 Inch",
+  "brand":"VITESSE",
   "description": 
     [
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "【STURDY & STEADY】 –Sturdy PVC tabletops are supported by a solid steel frame. Up to 260 pounds of load-bearing capacity, T-shaped legs design for more stable support.",
+      "【OVERSIZED DESKTOP WITH MOUSE PAD 】–63“ W*29.5” D carbon fiber desktop, the large PVC laminated surface and mouse pad provides massive space for your gaming monitors, PC, gaming keyboards and other gaming gear.",
+      "【CONVENIENT CHARGING PORT】– Smart USB gaming handle rack with four charging port, allow you charging your phone, ipad or headphone, while you working or gaming.",
+      "【MULTI-FUNCTIONS FOR GAMER】–Coming with a USB gaming handle rack,  storage tray, cable grommets, cup holder, headphone hook holder. These Professional equipments provide better gaming experience.",
+      "【1 YEAR WORRY-FREE】–Free replacement or parts for any quality problem within 1 year. Just feel free to contact our staff if you have any issues with this product."
     ],
-  "starrating": 0,
-  "price": 0,
-  "img": ""
+  "starrating": 5,
+  "price": 139.99,
+  "img": "Desk2.jpg"
  },
  {
-  "id": "YG636ec1-edcR-cf2g-9D87-7ed40255cVY",
+  "id": "bG63cecM-edcR-cfcg-9DG7-7edC0255cV1",
+  "category":"Desk",
+  "name":"EUREKA ERGONOMIC Gaming Desk with Led Lights",
+  "brand":"EUREKA ERGONOMIC",
+  "description": 
+    [
+      "Large Desk Surface: Wing-shaped Gaming desk measures 72\" wide by 24\" deep, supports up to 400 LBS. Ergonomic Desktop provides flexible room for your abdomen and arms, designed for the people who sit for a long time. Large gaming desktop with smooth carbon fiber texture easily hold gaming gears, music studio or live streaming devices.",
+      "Fully Functional: Gaming desk comes with 2 monitor shelves with RGB lights for PC gamers and streaming. 2 iPad grooves to place the mobile phones and tablets. 2 cable management holes and 2 power socket holders keep your field tidy. A cup holder and a dual headphone holder on both sides of the desktop. You will have the perfect battle station to destroy your competition.",
+      "Safe and Reliable: EUREKA desk complies with all California toxic substances regulations including formaldehyde, heavy metals and other strict inspections. For the safety of your children and pets, each board comes with a certificate of origin which meets the felling standards and is only listed after passing tens of thousands of beat tests.",
+      "Customer Satisfaction: We have been devoted to designing and manufacturing the best desks offering excellent customer experience. Therefore, we pay much attention to customers need and we take pride in our innovative design, rigorous testing, and world class manufacturing process. Our local customer support team is always there to offer timely help."
+    ],
+  "starrating": 5,
+  "price": 379.99,
+  "img": "Desk3.jpg"
+ },
+ {
+  "id": "YG636ecM-edcR-cfcg-9D87-7edC0255cVY",
   "category":"",
   "name":"",
   "brand":"",

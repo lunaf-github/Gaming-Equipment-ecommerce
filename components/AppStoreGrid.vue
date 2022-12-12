@@ -73,8 +73,8 @@ export default {
       if(el.price > max) max = el.price;
      })
      
-     this.pricerange = max;
-     this.max = max;
+     this.pricerange = Math.ceil(max);
+     this.max = Math.ceil(max);
    }
  },
  mounted(){

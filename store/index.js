@@ -14,7 +14,8 @@ export const getters = {
  mouseDevices: state => state.storedata.filter(el => el.category === "Mouse"),
  keyboards: state => state.storedata.filter(el => el.category === "Keyboard"),
  accessories: state => state.storedata.filter(el => el.category === "Accessory"),
- monitors: state => state.storedata.filter(el => el.category === "Monitor")
+ monitors: state => state.storedata.filter(el => el.category === "Monitor"),
+ desks: state => state.storedata.filter(el => el.category === "Desk")
 }
 
 export const mutations = {}

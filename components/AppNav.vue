@@ -10,7 +10,7 @@
       <nuxt-link to="/Accessories">Accessories</nuxt-link>
      </li>
      <li>
-      <nuxt-link to="/desk">Desks</nuxt-link>
+      <nuxt-link to="/Desks">Desks</nuxt-link>
      </li>
      <li>
       <nuxt-link to="/chair">Chairs</nuxt-link>
