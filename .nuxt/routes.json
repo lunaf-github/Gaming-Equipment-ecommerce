@@ -7,6 +7,13 @@
     "_name": "_7f17eed0"
   },
   {
+    "name": "Chairs",
+    "path": "/Chairs",
+    "component": "/home/hduser/Documents/Fernando/Projects/fashion-ecommerce/pages/Chairs.vue",
+    "chunkName": "pages/Chairs",
+    "_name": "_017d9116"
+  },
+  {
     "name": "Desks",
     "path": "/Desks",
     "component": "/home/hduser/Documents/Fernando/Projects/fashion-ecommerce/pages/Desks.vue",

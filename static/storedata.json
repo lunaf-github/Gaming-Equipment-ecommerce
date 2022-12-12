@@ -1,5 +1,22 @@
 [
  {
+  "id": "YG636ec1-edcR-cf2g-9V8c-7ed40255GVX",
+  "category":"Monitor",
+  "name":"LG 24GQ50F-B",
+  "brand":"LG",
+  "description": 
+    [
+      "Designed especially for gaming, this display features a Full HD display for high color reproduction and image quality",
+      "High 165-Hertz refresh rate with 1-millisecond Motion Blur Reduction (MBR) is ideal for fast-paced games",
+      "AMD FreeSync Premium improves baseline FreeSync technology, with fluid and tear-free gameplay and video with compatible video cards",
+      "Customize your settings for different games with the Enhanced Gaming UI. OnScreen Control software allows you to control various display settings with a single mouse click",
+      "Three-side, virtually borderless bezel and tilt adjustment is the ideal screen for a desktop setup, or mount with 75 x 75 mm bracket sizing"
+    ],
+    "starrating": 4,
+    "price": 189.99,
+    "img": "Monitor4.jpg"
+  },  
+ {
   "id": "9d436e98-1dc9-4f21-9587-76d4c0255e33",
   "category":"Headset",
   "name":"BINNUNE Wireless Gaming Headset",
@@ -284,23 +301,6 @@
  },
  {
   "id": "YG636ec1-edcR-cf2g-9D87-7ed40255cVY",
-  "category":"Monitor",
-  "name":"LG 24GQ50F-B",
-  "brand":"LG",
-  "description": 
-    [
-      "Designed especially for gaming, this display features a Full HD display for high color reproduction and image quality",
-      "High 165-Hertz refresh rate with 1-millisecond Motion Blur Reduction (MBR) is ideal for fast-paced games",
-      "AMD FreeSync Premium improves baseline FreeSync technology, with fluid and tear-free gameplay and video with compatible video cards",
-      "Customize your settings for different games with the Enhanced Gaming UI. OnScreen Control software allows you to control various display settings with a single mouse click",
-      "Three-side, virtually borderless bezel and tilt adjustment is the ideal screen for a desktop setup, or mount with 75 x 75 mm bracket sizing"
-    ],
-  "starrating": 4,
-  "price": 189.99,
-  "img": "Monitor4.jpg"
- },
- {
-  "id": "YG636ec1-edcR-cf2g-9D87-7ed40255cVY",
   "category":"Desk",
   "name":"MOTPK Gaming Desk",
   "brand":"MOTPK",
@@ -317,7 +317,7 @@
   "img": "Desk1.jpg"
  },
  {
-  "id": "YG636ecM-edcR-cfcg-9D87-7edC0255cVY",
+  "id": "1G636ecW-ePcR-cfcg-9D87-7edC0255c32",
   "category":"Desk",
   "name":"VITESSE Gaming Desk 63 Inch",
   "brand":"VITESSE",
@@ -350,7 +350,58 @@
   "img": "Desk3.jpg"
  },
  {
-  "id": "YG636ecM-edcR-cfcg-9D87-7edC0255cVY",
+  "id": "YG636ec1-eTcR-cfcg-9D87-7edC0G55x11",
+  "category":"Chair",
+  "name":"Goplus Massage Gaming Chair",
+  "brand":"Goplus",
+  "description": 
+    [
+      "【Massage Function to Relax Your Body】Our massage gaming chair with 4 massage spots, 2 on back and 2 on lumbar, can help to relax your body and loosen up your back and waist muscles. In addition, this massage chair features 8 massage modes, as well as adjustable massage strength, positions and time, to meet your different needs.",
+      "【Adjustable Backrest & Footrest】This gaming chair is equipped with adjustable backrest and footrest. You can easily change the angle of backrest between 90-140°. Besides, the ergonomic design perfectly fits the curvature of human’s back. It is worth mentioning that the backrest and footrest can be adjust independently.",
+      "【High Quality & Comfortable Material】On the one hand, covered with environmental friendly PU leather, the office chair is not only skin-friendly and easy to clean, but also breathable and water resistant. On the other hand, padded with high-density thicker sponge, it is highly resilient and more comfortable.",
+      "【Humanized & User-friendly Design】The attached side pouch, measuring 7.5” X 7.5”, allows you to store the controller and your handy stuffs like phone. And the cup holder built in left armrest is more convenient to for you to place your cups so that you don't need to get up to get your water cups. As well as the headrest pillow offers extra comfort for you.",
+      "【Stable and Sturdy Structure】Constructed by iron round base, the massage gaming chair is stable and sturdy. It has the maximum bearing capacity of 264.5 lbs. Other than that, the seat can swivel 360˚ so that you can switch directions freely and chat with friends."
+    ],
+  "starrating": 4,
+  "price": 299.99,
+  "img": "Chair1.jpg"
+ },
+ {
+  "id": "YG636ec2-FTcC-1fcg-1DB7-7edC0G55x19",
+  "category":"Chair",
+  "name":"Homall Gaming Chair",
+  "brand":"Homall",
+  "description": 
+    [
+      "[Designed for Comfort] Homall gaming chair is made of high quality materials: The soft cushion is made of high-density sponge, and the entire seat is wrapped in elastic pu leather. The back of the chair provides multi-point support, matched with the headrest and massage lumbar support, which will relax your tired waist energetically. The retractable footrest can be adjusted at will.",
+      "[Modern Collocation] The gaming chair adopts ergonomic design, it can make your body fit the seat to the greatest extent, and achieve the effect of relaxing the whole body; In the design of color matching, the main color of the chair is black, you can choose the color you like from 6 different colors.",
+      "[Stable & Robust Architecture] The entire gaming chair uses a steel frame as the main structure, the seat back and seat cushion are connected by back steel plate,this connection method is not only strong, but also keeps the stability of the seat back, the textured metal feet can rotate 360 degrees.",
+      "[Adjust at Will] The adjustment range of the seat height is 14.3 inch to 17.5 inch, the adjustment range of the seat back angle is from 90 degrees to 160 degrees, both adjustable wrenches are located on the right side of the chassis, you only need to be slightly sideways to adjust the chair easily.",
+      "[Easy to Install & Customer Service] The overall design of the gaming chair focuses on the simplest installation method for customers to experience. If you have any questions, please feel free to contact us."
+    ],
+  "starrating": 4,
+  "price": 119.99,
+  "img": "Chair2.jpg"
+ },
+ {
+  "id": "YG636ec1-eTc1-cfcg-9D87-73dC0G55x1B",
+  "category":"Chair",
+  "name":"Fantasylab Big and Tall Gaming Chair",
+  "brand":"Fantasylab",
+  "description": 
+    [
+      "FULLY ADJUSTABLE ARMRESTS & BACK -- You can adjust every single part of this racing gaming chair to perfectly fit the type and height of your body. The height of the racing chair, the tilt of the backrest (90°~155°), the tilt tension（loose/tight）, 3D armrests, all of these practical mechanisms are very easy to adjust to meet your needs",
+      "PREMIUM QUALITY RECLINING GAMING CHAIR - Durable leather cover executive chair, integrated metal frame, explosion-proof gas lift, heavy duty metal gaming chair base with smooth-rolling casters make it a superb stable and comfy chair for gaming or office work (Maximum weight capacity: 400 LB)",
+      "BIG AND TALL COMPUTER GAME CHAIR WITH MASSAGE - This large gaming chair with massage including grand seat and high back, ergonomic design of the high back computer gamer chair will properly support your spine, which is a big man friendly XL gamer chair with massage",
+      "EXTRA LARGE GAMING CHAIR for HEAVY PEOPLE -- The overall dimensions of the computer chair are 27.6\" x 26.4\"x 51.2\"- 53.5\" inches. The seating area is 21.7\" x 20.5\" inches, and the high backrest is 23.4\" x 33.5\" inches large. This pc gaming chair will perfectly fit your office desk and in front of your computer and consoles",
+      "EXCELLENT AFTER-SALES SERVICE -- 1 year warranty on parts. Any dissatisfaction with our ergonomic gaming chair or service, please feel free to contact us. Our customer service team is always there for you"
+    ],
+  "starrating": 4,
+  "price": 229.99,
+  "img": "Chair3.jpg"
+ },
+ {
+  "id": "YG636ec1-eTcR-cfcg-9D87-7edC0G55x11",
   "category":"",
   "name":"",
   "brand":"",

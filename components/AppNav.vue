@@ -13,7 +13,7 @@
       <nuxt-link to="/Desks">Desks</nuxt-link>
      </li>
      <li>
-      <nuxt-link to="/chair">Chairs</nuxt-link>
+      <nuxt-link to="/Chairs">Chairs</nuxt-link>
      </li>
      <li>
       <nuxt-link to="/keyboards">Keyboards</nuxt-link>

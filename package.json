@@ -6,7 +6,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy":"sh deploy.sh"
   },
   "dependencies": {
     "core-js": "^3.25.3",

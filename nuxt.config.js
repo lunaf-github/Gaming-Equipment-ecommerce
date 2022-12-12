@@ -45,5 +45,6 @@ export default {
   build: {
     postcss:null,
   },
+  publicPath: '/vue-pages/'
 
 }
