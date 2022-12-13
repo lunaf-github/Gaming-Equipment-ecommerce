@@ -124,7 +124,7 @@
 "img": "headset5.jpg"
 },
 {
-  "id": "9d436e98-1dc9-4f21-9587-76d4c0255e33",
+  "id": "9d436e91-1dc9-4f2G-9587-76d4c02S1e13",
   "category":"Mouse",
   "name":"Redragon M612",
   "brand":"Redragon",
@@ -401,21 +401,73 @@
   "img": "Chair3.jpg"
  },
  {
-  "id": "YG636ec1-eTcR-cfcg-9D87-7edC0G55x11",
-  "category":"",
-  "name":"",
-  "brand":"",
+  "id": "YG636ec1-eTcR-cfVg-1D8a-73dC0G55xc5",
+  "category":"Accessory",
+  "name":"Everlasting Comfort Foot Rest",
+  "brand":"Everlasting",
   "description": 
     [
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Effective Pain Relief for Those Who Sit for Hours: Our under desk footrest takes ergonomics to your work and play. By elevating your legs, it puts hips and knees on the same plane, lessening pressure on joints and muscles so you feel better all over. You’ll enjoy uninterrupted comfort during your entire 8 hour workday or while gaming with no annoying pins and needles to numb your brain or poke holes in your strategy",
+      "Velvety Soft Washable Cover: The plush cover feels heavenly against bare feet. But if you like to use our computer foot rest under desk with your shoes on and end up leaving dirt behind, no worries. Unzip the cover and toss it into the washing machine and dryer",
+      "Unique Teardrop Design: Unlike the fussy 2 piece footrests, our office foot rest is a simple, 1 piece design that accommodates most any leg length. The unique graduated teardrop shape encourages a natural sitting posture no matter your stature, enhances ergonomics, and contours to the curves of your feet arches. Just put it on the floor and it’s ready to deliver instant comfort",
+      "Raise Your Feet if You Want Good Sitting Posture: When legs are flat on the floor, they create strain on hips and back. The foot stool under desk lifts legs a few inches from the floor yet makes a world of difference in posture, comfort and circulation",
+      "Heat Responsive Technology: Made with 100 percent pure memory foam, the desk foot rest adapts to the shape of your feet and arches so you can really relax into it. Unlike hard wooden rests and stiff pads, it yields gently under your weight to support and cushion at the same time. Slowly springs back to its original shape after each use for lasting comfort",
+      "Rock and Roll: Flip our 2 in 1 under desk foot rest and you have a rocking exerciser to energize your legs. The back and forth motion increases circulation, relieves ankle stiffness and refreshes tired feet. So when you stand up, you’re ready to roll",
+      "Made with Certified Safe Materials: In our commitment to providing you with the highest quality items, our footrest for under desk has been tested by OEKO-TEX to earn the coveted STANDARD 100 label meaning every component is certified safe and harmless for human health"
     ],
-  "starrating": 0,
-  "price": 0,
-  "img": ""
+  "starrating": 4,
+  "price": 37.99,
+  "img": "Accessory1.jpg"
+ },
+ {
+  "id": "YG636ec1-e6c9-c1VB-1D3a-73dCOG55xc8",
+  "category":"Accessory",
+  "name":"WILLED Under Monitor Light Bar",
+  "brand":"Willed",
+  "description": 
+    [
+      "Dynamic Rainbow Effect & Dimmable -- The gaming light bar with RGBIC have 351 dynamics modes and 15 static color modes, including colors jump, colors fade and dream color rainbow effect etc. Brightness is also adjustable, you can choose your favorite color mode and brightness to decorate your desk stand when you palying games or watching movie.",
+      "Memory Function & USB Powered-- Choose one of your favorite mode to decor your PC, the gaming lights can remember your last used brightness and lighting mode, no need to reset it every time. The ambient backlights with 5V USB port fits to any pc.",
+      "Space-Saving & Black Aluminum Body -- Use strong adhesive tape with your led gaming lights, can stick it under your desk stand or behind your monitor as ambient lighting, save your desk space. With black aluminum outer case have good heat dissipation, cool for your desk setup.",
+      "Remote Control & Easy Operation -- Have 2 methods to control the under monitor light bar. You can use the switch on the light to control on/off and change mode. Also can use the wireless remote controller to change the Color, Mode, Speed and Brightness. One remote can control several monitor light bars in the same time.",
+      "Easy Installation -- It’s easy to install the RGBIC lights for gaming room, use with the provided strong adhesive tape stick it to anywhere you want, no need to worry about the falling. And the tape is easy to remove no remains. Noted: if you have any inquiries please contact us first, we are always here to solve any problems for you."
+    ],
+  "starrating": 4,
+  "price": 17.99,
+  "img": "Accessory2.jpg"
+ },
+ {
+  "id": "YG636ec1-eTc1-cfVG-2D8a-73dC065Sxc7",
+  "category":"Accessory",
+  "name":"KAFRI RGB Headphone Stand",
+  "brand":"KAFRI",
+  "description": 
+    [
+      "【RGB LED lights】KAFRI RBG Headphone Stand can display 9 lighting effects modes, up to 16.8 million colors to creat an amazing gaming atmosphere at your preference. that can be selected merely by pressing a Touch switch. Great gifts for Son, boy, Men, husband and boyfriend.",
+      "【10W Qi Wireless Charger】Say goodbye to tangled wires and messing cables, just place your phone on fast charger pad. no cables or USB interface required. Charger compatible with Apple iPhone XS Max,XR,XS, X, iPhone 8/8 Plus, Samsung Galaxy S9/S9 Plus, Note 8, S8/S8 Plus, and other Qi-enabled cell phones.(Metal attachments or credit cards will interfere with charging.)",
+      "【Intelligently Identify Charge Models】 Fast wireless charge up to 10W compatible with Samsung Galaxy S10,S10 Plus, S10E, S9, S9 Plus, S8, S8 Plus, Note 9, Note 8, S7, S7 edge, S6 edge+, 7.5W qi wireless charging for iPhone 11/11 Pro Max X/ XS/ XS Max/ XR/ 8/ 8 Plus ( Note: QC2.0/3.0 adapter needed for fast charge) and 5W standard wireless charge for All Qi-enabled phones.",
+      "【Safe Guard】Fire-resistant and hardened plastic outer shell for durability, no risk of wood flammable and metal leakage,build-in premium circuitry and microchip, ensure device safety.Multi-protection system shields everything from overload, short-circuits, over-current and other charging issues.",
+      "【What You Get】KAFRI Headphone dock / Wireless Charging Pad, 5ft / 1.5m USB Cord , If there is any quality issue for this headphone rack or you are not happy with your purchase, please do not hesitate to contact us."
+    ],
+  "starrating": 5,
+  "price": 20.99,
+  "img": "Accessory3.jpg"
+ },
+ {
+  "id": "YG636ec1-eTcR-cfVg-1D81-73dC0G55xB3",
+  "category":"Accessory",
+  "name":"Cup holder",
+  "brand":"Cup-Holster",
+  "description": 
+    [
+      "Strong Grip: High tension provides strength for even large drinks. Attaches to surfaces up to 1.75\" thick with cap or 2\" thick with cap removed.",
+      "Scratch free: polyethylene screw caps won't scratch surfaces.",
+      "Uses: Perfect for hot or cold drinks, mobile phones, small flower pots, virtually any small item you want out of the way. Attaches to a variety of surfaces",
+      "Size: 4 x 3.5 x 4 inches. Weight: 8 ounces. Will hold items up to a 3.4 inch diameter. Fits most glasses, cans, cups, large to go cups, tumblers, thermoses and bottles.",
+      "Quality: We're an American family owned company. Each cup holder is proudly made in the USA! Customer satisfaction is important to us!"
+    ],
+  "starrating": 4,
+  "price": 14.97,
+  "img": "Accessory4.jpg"
  }
 ]

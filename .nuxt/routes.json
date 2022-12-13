@@ -49,6 +49,13 @@
     "_name": "_eb2c8b80"
   },
   {
+    "name": "product-id",
+    "path": "/product/:id?",
+    "component": "/home/hduser/Documents/Fernando/Projects/fashion-ecommerce/pages/product/_id.vue",
+    "chunkName": "pages/product/_id",
+    "_name": "_31c97522"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/home/hduser/Documents/Fernando/Projects/fashion-ecommerce/pages/index.vue",

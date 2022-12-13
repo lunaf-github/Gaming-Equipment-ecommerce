@@ -11,6 +11,7 @@ const _0b793359 = () => interopDefault(import('../pages/headsets.vue' /* webpack
 const _09393658 = () => interopDefault(import('../pages/Keyboards.vue' /* webpackChunkName: "pages/Keyboards" */))
 const _619b18be = () => interopDefault(import('../pages/Monitors.vue' /* webpackChunkName: "pages/Monitors" */))
 const _eb2c8b80 = () => interopDefault(import('../pages/MouseDevices.vue' /* webpackChunkName: "pages/MouseDevices" */))
+const _31c97522 = () => interopDefault(import('../pages/product/_id.vue' /* webpackChunkName: "pages/product/_id" */))
 const _6caa295a = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -52,6 +53,10 @@ export const routerOptions = {
     path: "/MouseDevices",
     component: _eb2c8b80,
     name: "MouseDevices"
+  }, {
+    path: "/product/:id?",
+    component: _31c97522,
+    name: "product-id"
   }, {
     path: "/",
     component: _6caa295a,
