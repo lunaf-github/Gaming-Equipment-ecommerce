@@ -45,6 +45,9 @@ export default {
   build: {
     postcss:null,
   },
-  publicPath: '/vue-pages/'
+  target: 'static',
+  router: {
+    base: '/Gaming-Equipment-ecommerce/'
+  },
 
 }
