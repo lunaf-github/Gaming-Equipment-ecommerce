@@ -16,9 +16,20 @@ export const getters = {
  accessories: state => state.storedata.filter(el => el.category === "Accessory"),
  monitors: state => state.storedata.filter(el => el.category === "Monitor"),
  desks: state => state.storedata.filter(el => el.category === "Desk"),
- chairs: state => state.storedata.filter(el => el.category === "Chair")
+ chairs: state => state.storedata.filter(el => el.category === "Chair"),
+ cartCount: state => {
+  if(!state.cart.length) return 0;
+  return state.cart.reduce((ac, next) => ac + next.quantity, 0);
+ }
 }
 
-export const mutations = {}
+export const mutations = {
+ addToCart: (state, payload) => {
+   let itemfound = state.cart.find(el => el.id = payload.id);
+   itemfound?
+        (itemfound.quantity += payload.quantity)
+        :state.cart.push(payload)
+ }
+}
 
 export const actions = {};

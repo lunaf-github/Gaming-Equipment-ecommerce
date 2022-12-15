@@ -1,3 +1,5 @@
+export { default as AppCartDisplay } from '../../components/AppCartDisplay.vue'
+export { default as AppCartSteps } from '../../components/AppCartSteps.vue'
 export { default as AppFeatureProducts } from '../../components/AppFeatureProducts.vue'
 export { default as AppFooter } from '../../components/AppFooter.vue'
 export { default as AppFooterLinks } from '../../components/AppFooterLinks.vue'

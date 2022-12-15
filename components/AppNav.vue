@@ -28,7 +28,7 @@
       <nuxt-link to="/Monitors">Monitors</nuxt-link>
      </li>
      <li>
-      <nuxt-link to="/cart">Cart</nuxt-link>
+      <nuxt-link to="/Cart">Cart</nuxt-link>
      </li>
     </ul>
    </nav>

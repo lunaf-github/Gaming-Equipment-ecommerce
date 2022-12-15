@@ -1,4 +1,10 @@
 {
+  "AppCartDisplay": {
+    "description": "Auto imported from components/AppCartDisplay.vue"
+  },
+  "AppCartSteps": {
+    "description": "Auto imported from components/AppCartSteps.vue"
+  },
   "AppFeatureProducts": {
     "description": "Auto imported from components/AppFeatureProducts.vue"
   },

@@ -5,6 +5,7 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _7f17eed0 = () => interopDefault(import('../pages/Accessories.vue' /* webpackChunkName: "pages/Accessories" */))
+const _f5c94630 = () => interopDefault(import('../pages/Cart.vue' /* webpackChunkName: "pages/Cart" */))
 const _017d9116 = () => interopDefault(import('../pages/Chairs.vue' /* webpackChunkName: "pages/Chairs" */))
 const _7b4fa162 = () => interopDefault(import('../pages/Desks.vue' /* webpackChunkName: "pages/Desks" */))
 const _0b793359 = () => interopDefault(import('../pages/headsets.vue' /* webpackChunkName: "pages/headsets" */))
@@ -20,7 +21,7 @@ Vue.use(Router)
 
 export const routerOptions = {
   mode: 'history',
-  base: '/',
+  base: '/Gaming-Equipment-ecommerce/',
   linkActiveClass: 'nuxt-link-active',
   linkExactActiveClass: 'nuxt-link-exact-active',
   scrollBehavior,
@@ -29,6 +30,10 @@ export const routerOptions = {
     path: "/Accessories",
     component: _7f17eed0,
     name: "Accessories"
+  }, {
+    path: "/Cart",
+    component: _f5c94630,
+    name: "Cart"
   }, {
     path: "/Chairs",
     component: _017d9116,
