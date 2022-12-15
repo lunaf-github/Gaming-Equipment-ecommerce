@@ -3,7 +3,7 @@
     <transition-group name="items" tag="section" class="content">
       <div v-for="item in filteredprice" :key="item.id" class="item">
        <div class="img-contain">
-         <nuxt-link :to="`product/${item.id}`">
+         <nuxt-link :to="`/product/${item.id}`">
            <Img :src="`/products/${item.img}`"/>
          </nuxt-link>
        </div>
