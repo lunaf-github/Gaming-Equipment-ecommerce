@@ -45,9 +45,5 @@ export default {
   build: {
     postcss:null,
   },
-  target: 'static',
-  router: {
-    base: '/Gaming-Equipment-ecommerce/'
-  },
 
 }
