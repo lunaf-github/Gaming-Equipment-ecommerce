@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/Keyboards", {data:[{}],fetch:{},mutations:[]});

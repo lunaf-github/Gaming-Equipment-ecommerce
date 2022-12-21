@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/headsets", {data:[{}],fetch:{},mutations:[]});
