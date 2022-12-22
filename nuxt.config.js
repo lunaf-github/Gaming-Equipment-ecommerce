@@ -1,3 +1,11 @@
+import data from './static/storedata.json'
+
+let dynamicRoutes = () => {
+  return new Promise(resolve => {
+    resolve(data.map(el => `product/${el.id}`))
+  })
+}
+
 export default {
   mode: 'universal',
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -22,7 +30,9 @@ export default {
       }
     ]
   },
-
+  generate: {
+    routes: dynamicRoutes
+  },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['normalize.css', { src: '~/assets/main.scss', lang: 'sass' }],
 
