@@ -20,7 +20,7 @@
           <td>
             <button>-</button>
             <strong>{{ item.quantity }}</strong>
-            <button>+</button>
+            <button @click="addToCart(item)" class="quantity-adjust">+</button>
           </td>
           <td>{{ (item.quantity * item.price) }}</td>
           <td>
@@ -28,7 +28,6 @@
           </td>
         </tr>
       </table>
-      <code>{{cart}}</code>
     </section>
     <Section v-else class="center">
       <p>Your cart is empty, fill it up!</p>
@@ -49,6 +48,11 @@ export default {
   computed:{
     ...mapState(["cart"]),
     ...mapGetters(["cartCount"])
+  },
+  methods:{
+    addToCart(item){
+      this.$store.commit("addOneToCart", item)
+    }
   }
 }
 </script>
