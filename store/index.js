@@ -39,6 +39,9 @@ export const mutations = {
    (state.cart[index].quantity === 1)
       ? state.cart.splice(index,1)
       : state.cart[index].quantity--;
+ },
+ removeAllFromCart: (state, payload) => {
+   state.cart = state.cart.filter(el => el.id !== payload.id);
  }
 }
 

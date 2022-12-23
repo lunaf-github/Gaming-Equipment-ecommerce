@@ -24,7 +24,7 @@
           </td>
           <td>{{ (item.quantity * item.price) }}</td>
           <td>
-            <button>X</button>
+            <button @click="removeAllFromCart(item)">X</button>
           </td>
         </tr>
       </table>
@@ -55,6 +55,9 @@ export default {
     },
     removeOneFromCart(item){
       this.$store.commit("removeOneFromCart", item);
+    },
+    removeAllFromCart(item){
+      this.$store.commit("removeAllFromCart", item);
     }
   }
 }
