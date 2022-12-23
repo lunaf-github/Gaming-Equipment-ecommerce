@@ -18,7 +18,7 @@
             <h4 class="price">{{ item.price }}</h4>
           </td>
           <td>
-            <button>-</button>
+            <button @click="removeOneFromCart(item)">-</button>
             <strong>{{ item.quantity }}</strong>
             <button @click="addToCart(item)" class="quantity-adjust">+</button>
           </td>
@@ -52,6 +52,9 @@ export default {
   methods:{
     addToCart(item){
       this.$store.commit("addOneToCart", item)
+    },
+    removeOneFromCart(item){
+      this.$store.commit("removeOneFromCart", item);
     }
   }
 }

@@ -31,8 +31,14 @@ export const mutations = {
         : state.cart.push(payload);
  },
  addOneToCart: (state, payload) => {
-    let itemfound = state.cart.find(el => el.id === payload.id);
-    itemfound? itemfound.quantity++ : state.cart.push(payload);
+   let itemfound = state.cart.find(el => el.id === payload.id);
+   itemfound? itemfound.quantity++ : state.cart.push(payload);
+ },
+ removeOneFromCart: (state, payload) => {
+   let index = state.cart.findIndex( el => el.id === payload.id);
+   (state.cart[index].quantity === 1)
+      ? state.cart.splice(index,1)
+      : state.cart[index].quantity--;
  }
 }
 
