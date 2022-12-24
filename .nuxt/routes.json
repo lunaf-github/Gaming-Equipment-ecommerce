@@ -3,70 +3,60 @@
     "name": "Accessories",
     "path": "/Accessories",
     "component": "/home/hduser/Documents/Fernando/Projects/fashion-ecommerce/pages/Accessories.vue",
-    "chunkName": "pages/Accessories",
-    "_name": "_7f17eed0"
+    "chunkName": "pages/Accessories"
   },
   {
     "name": "Cart",
     "path": "/Cart",
     "component": "/home/hduser/Documents/Fernando/Projects/fashion-ecommerce/pages/Cart.vue",
-    "chunkName": "pages/Cart",
-    "_name": "_f5c94630"
+    "chunkName": "pages/Cart"
   },
   {
     "name": "Chairs",
     "path": "/Chairs",
     "component": "/home/hduser/Documents/Fernando/Projects/fashion-ecommerce/pages/Chairs.vue",
-    "chunkName": "pages/Chairs",
-    "_name": "_017d9116"
+    "chunkName": "pages/Chairs"
   },
   {
     "name": "Desks",
     "path": "/Desks",
     "component": "/home/hduser/Documents/Fernando/Projects/fashion-ecommerce/pages/Desks.vue",
-    "chunkName": "pages/Desks",
-    "_name": "_7b4fa162"
+    "chunkName": "pages/Desks"
   },
   {
     "name": "headsets",
     "path": "/headsets",
     "component": "/home/hduser/Documents/Fernando/Projects/fashion-ecommerce/pages/headsets.vue",
-    "chunkName": "pages/headsets",
-    "_name": "_0b793359"
+    "chunkName": "pages/headsets"
   },
   {
     "name": "Keyboards",
     "path": "/Keyboards",
     "component": "/home/hduser/Documents/Fernando/Projects/fashion-ecommerce/pages/Keyboards.vue",
-    "chunkName": "pages/Keyboards",
-    "_name": "_09393658"
+    "chunkName": "pages/Keyboards"
   },
   {
     "name": "Monitors",
     "path": "/Monitors",
     "component": "/home/hduser/Documents/Fernando/Projects/fashion-ecommerce/pages/Monitors.vue",
-    "chunkName": "pages/Monitors",
-    "_name": "_619b18be"
+    "chunkName": "pages/Monitors"
   },
   {
     "name": "MouseDevices",
     "path": "/MouseDevices",
     "component": "/home/hduser/Documents/Fernando/Projects/fashion-ecommerce/pages/MouseDevices.vue",
-    "chunkName": "pages/MouseDevices",
-    "_name": "_eb2c8b80"
+    "chunkName": "pages/MouseDevices"
   },
   {
     "name": "product-id",
     "path": "/product/:id?",
     "component": "/home/hduser/Documents/Fernando/Projects/fashion-ecommerce/pages/product/_id.vue",
-    "chunkName": "pages/product/_id",
-    "_name": "_31c97522"
+    "chunkName": "pages/product/_id"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/home/hduser/Documents/Fernando/Projects/fashion-ecommerce/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_6caa295a"
+    "chunkName": "pages/index"
   }
 ]

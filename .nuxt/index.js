@@ -14,6 +14,7 @@ import { createStore } from './store.js'
 /* Plugins */
 
 import nuxt_plugin_plugin_be0ab224 from 'nuxt_plugin_plugin_be0ab224' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_currencyfilter_e0c2928e from 'nuxt_plugin_currencyfilter_e0c2928e' // Source: ../plugins/currency-filter.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -212,6 +213,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_plugin_be0ab224 === 'function') {
     await nuxt_plugin_plugin_be0ab224(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_currencyfilter_e0c2928e === 'function') {
+    await nuxt_plugin_currencyfilter_e0c2928e(app.context, inject)
   }
 
   // Lock enablePreview in context
