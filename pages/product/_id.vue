@@ -12,7 +12,7 @@
         active-color="#000"
         style="margin: 5px 0"
       ></star-rating>
-      <h4 class="price">{{ product.price }}</h4>
+      <h4 class="price">{{ product.price | dollar }}</h4>
       <ul>
        <li v-for="detail in product.description" :key="detail" class="product-detail">{{detail}}</li>
       </ul>
