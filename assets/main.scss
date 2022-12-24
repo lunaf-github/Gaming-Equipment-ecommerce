@@ -21,19 +21,23 @@ h3 {
 
 button {
   border: 1px solid #ccc;
-  background: white;
+  background: black;
   padding: 10px 14px;
   cursor: pointer;
-  color: black;
+  color:white;
   font-weight: 700;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif;
   transition: 0.3s all ease;
   &:hover {
-    background: black;
+    background: #c14103;
     border: 1px solid black;
-    color: whi
+    color: white;
   }  
+}
+
+button.pay-with-stripe {
+
 }
 
 /*----------- Store Grid ------------*/
