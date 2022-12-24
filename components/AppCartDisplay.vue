@@ -15,14 +15,14 @@
             <h3 class="product-name">{{ item.name }}</h3>
           </td>
           <td>
-            <h4 class="price">{{ item.price }}</h4>
+            <h4 class="price">{{ item.price | dollar}}</h4>
           </td>
           <td>
             <button @click="removeOneFromCart(item)" class="quantity-adjust">-</button>
             <strong>{{ item.quantity }}</strong>
             <button @click="addToCart(item)" class="quantity-adjust">+</button>
           </td>
-          <td>{{ (item.quantity * item.price) }}</td>
+          <td>{{ (item.quantity * item.price) | dollar }}</td>
           <td>
             <button @click="removeAllFromCart(item)" class="delete-product">X</button>
           </td>
@@ -40,10 +40,10 @@
           </div>
           <div class="num">
             <p>
-              <strong>{{ cartTotal }}</strong>
+              <strong>{{ cartTotal | dollar }}</strong>
             </p>
             <p>Free Shipping</p>
-            <p class="golden">{{ cartTotal }}</p>
+            <p class="golden">{{ cartTotal | dollar}}</p>
           </div>
         </div>
       </section>
@@ -51,7 +51,7 @@
 
     <section v-else class="center">
       <p>Your cart is empty, fill it up!</p>
-      <button class="pay-with-stripe">
+      <button>
         <nuxt-link exact to="/">Back Home</nuxt-link>
       </button>
     </section>
@@ -132,6 +132,7 @@ export default {
   button a {
     color: white;
     transition: 0.3s all ease;
+    text-decoration: none;
   }
 
 </style>

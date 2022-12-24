@@ -9,7 +9,7 @@
            <img :src="`/products/${product.img}`" />
          </nuxt-link>
          <h3>{{ product.name }}</h3>
-         <h4>{{( product.price)}}</h4>
+         <h4>{{( product.price | dollar)}}</h4>
      </div>
    </div>
   </section>
