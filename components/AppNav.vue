@@ -28,6 +28,7 @@
       <nuxt-link to="/Monitors">Monitors</nuxt-link>
      </li>
      <li>
+      <div class="carttotal" v-if="cartCount > 0">{{ cartCount }}</div>
       <nuxt-link to="/Cart">Cart</nuxt-link>
      </li>
     </ul>
@@ -36,8 +37,12 @@
 </template>
 
 <script>
-export default {
+import { mapGetters } from 'vuex';
 
+export default {
+  computed: {
+    ...mapGetters(["cartCount"])
+  }
 }
 </script>
 
@@ -76,5 +81,21 @@ export default {
         }
       }
     }
+  }
+
+  .carttotal {
+    position:absolute;
+    border-radius: 100%;
+    background-color: black;
+    color:white;
+    font-size: 10px;
+    top: -23px;
+    right: -15px;
+    width: 6px;
+    height: 14px;
+    padding: 6px 10px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align:center;
   }
 </style>

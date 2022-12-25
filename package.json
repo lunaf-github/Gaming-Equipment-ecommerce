@@ -10,11 +10,13 @@
     "deploy": "push-dir --dir=dist --branch=gh-pages2 --cleanup"
   },
   "dependencies": {
+    "@vue-stripe/vue-stripe": "^4.4.4",
     "core-js": "^3.25.3",
     "normalize.css": "^8.0.1",
     "nuxt": "^2.15.8",
     "sass": "^1.56.1",
     "sass-loader": "^10.3.1",
+    "stripe": "^11.5.0",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
     "vue-star-rating": "^1.7.0",

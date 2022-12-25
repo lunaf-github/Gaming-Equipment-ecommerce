@@ -30,8 +30,9 @@ export const getters = {
 export const mutations = {
  addToCart: (state, payload) => {
    let itemfound = state.cart.find(el => el.id === payload.id);
+   
    itemfound?
-        (itemfound.quantity += payload.quantity)
+        (itemfound.quantity += parseInt(payload.quantity))
         : state.cart.push(payload);
  },
  addOneToCart: (state, payload) => {

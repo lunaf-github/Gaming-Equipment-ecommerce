@@ -30,6 +30,7 @@
       </table>
 
       <section class="payment">
+        <app-card />
         <div class="total">
           <div class="caption">
             <p>
@@ -60,10 +61,10 @@
 
 <script>
 import { mapGetters, mapState } from 'vuex';
-
+import AppCard from './AppCard.vue';  
 export default {
   components:{
-
+    AppCard
   },
   computed:{
     ...mapState(["cart"]),

@@ -1,3 +1,4 @@
+export { default as AppCard } from '../../components/AppCard.vue'
 export { default as AppCartDisplay } from '../../components/AppCartDisplay.vue'
 export { default as AppCartSteps } from '../../components/AppCartSteps.vue'
 export { default as AppFeatureProducts } from '../../components/AppFeatureProducts.vue'

@@ -1,4 +1,7 @@
 {
+  "AppCard": {
+    "description": "Auto imported from components/AppCard.vue"
+  },
   "AppCartDisplay": {
     "description": "Auto imported from components/AppCartDisplay.vue"
   },

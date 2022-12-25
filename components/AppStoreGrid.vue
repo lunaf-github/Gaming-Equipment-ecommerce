@@ -13,7 +13,7 @@
          :star-size="15"
          style="margin: 5px 0"
        ></star-rating>
-       <h3>{{ item.name }}</h3>
+       <h3 class="item-name">{{ item.name }}</h3>
        <h4 class="price">{{item.price | dollar}}</h4>
       </div>
     </transition-group>
@@ -90,23 +90,39 @@ export default {
 }
 
 .img-contain {
- max-height: 200px;
+ height: 200px;
  display: flex;
  align-content: center;
  align-items: center;
+
  img {
-  width: 100%;
+  max-height: 150px;
+  max-width: 150px;
  }
 }
 
 
+
 .item {
- max-height: 500px;
+ max-height: 325px;
  display: flex;
- justify-content: center;
+ justify-content: space-between;
  align-items: center;
  flex-direction: column;
- margin: 20px 0;
+ margin: 10px 0;
+ text-align: center;
+
+}
+
+.item-name {
+
+  margin: 2px;
+  height: 50px;
+  overflow: hidden;
+}
+.price {
+
+  margin:2px;
 }
 
 aside {
