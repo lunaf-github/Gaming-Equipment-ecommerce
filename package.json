@@ -20,6 +20,7 @@
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
     "vue-star-rating": "^1.7.0",
+    "vue-stripe-elements-plus": "^1.0.3",
     "vue-template-compiler": "^2.7.10"
   },
   "devDependencies": {
