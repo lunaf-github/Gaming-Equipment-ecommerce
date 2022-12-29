@@ -36,6 +36,18 @@ button {
   }  
 }
 
+button.pay-with-stripe {
+  background: black;
+  color: white;
+  font-size: 16px;
+  border: none;
+  &:hover {
+    background: #c14103;
+  }
+  &:disabled {
+    background: #999;
+  }
+}
 
 /*----------- Store Grid ------------*/
 
