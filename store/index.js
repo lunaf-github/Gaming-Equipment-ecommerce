@@ -28,6 +28,9 @@ export const getters = {
 }
 
 export const mutations = {
+ updateCartUI: (state, payload) => {
+   state.cartUIStatus = payload;
+ },
  addToCart: (state, payload) => {
    let itemfound = state.cart.find(el => el.id === payload.id);
    
@@ -47,6 +50,10 @@ export const mutations = {
  },
  removeAllFromCart: (state, payload) => {
    state.cart = state.cart.filter(el => el.id !== payload.id);
+ },
+ clearCart: state => {
+   state.cart = [];
+   state.cartUIStatus='idle';
  }
 }
 
