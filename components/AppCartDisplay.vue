@@ -136,4 +136,16 @@ export default {
     text-decoration: none;
   }
 
+  @media screen and (min-width: 700px) {
+  .payment {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 100px;
+  }
+
+  .total {
+    width: 90%;
+  }
+}
+
 </style>
