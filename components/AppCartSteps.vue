@@ -45,7 +45,7 @@ section {
 
 h2 {
   width: 80px;
-  height: 60px;
+  height: 80px;
   border-radius: 1000px;
   border: 1px solid #ccc;
   padding-top: 21px;
@@ -62,6 +62,11 @@ h4 {
   color: #555;
 }
 
+@media screen and (max-width: 600px) {
+  section {
+    grid-column-gap: 30px !important;
+  }
+}
   
 
 </style>

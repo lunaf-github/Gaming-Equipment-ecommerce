@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <article>
    <app-nav/>
    <main>
     <nuxt/>
    </main>
    <app-footer/>
-  </div>
+  </article>
 </template>
 
 <script>
@@ -46,10 +46,21 @@ body {
 }
 
 main {
+
   padding: 0;
   width: 95vw;
-  margin-left: 2vw;
+  margin-left: 0vw; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+
+/* div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
 
 
 @media screen and (min-width: 1000px) {

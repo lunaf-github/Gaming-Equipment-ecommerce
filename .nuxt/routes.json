@@ -7,6 +7,13 @@
     "_name": "_7f17eed0"
   },
   {
+    "name": "All",
+    "path": "/All",
+    "component": "/home/hduser/Documents/Fernando/Projects/fashion-ecommerce/pages/All.vue",
+    "chunkName": "pages/All",
+    "_name": "_53c9e2ee"
+  },
+  {
     "name": "Cart",
     "path": "/Cart",
     "component": "/home/hduser/Documents/Fernando/Projects/fashion-ecommerce/pages/Cart.vue",

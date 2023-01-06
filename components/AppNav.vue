@@ -7,6 +7,9 @@
       <nuxt-link to="/">Home</nuxt-link>
      </li>
      <li>
+      <nuxt-link to="/All">All</nuxt-link>
+     </li>
+     <li>
       <nuxt-link to="/Accessories">Accessories</nuxt-link>
      </li>
      <li>
@@ -60,21 +63,19 @@ export default {
     margin-top: 30px;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
     padding: 8px 0;
     ul {
       padding-left: 0;
       li {
         display: inline;
+        margin-left: 1vw;
         text-transform: uppercase;
         letter-spacing: 0.1em;
-        font-size: 13px;
-        border-left: 1px solid #ccc;
-        border-right: 1px solid #ccc;
+        font-size: .9em;
         position: relative;
         a {
-          color: black;
+          color: white;
+          font-weight: bold;
           &:hover {
             color: #c14103;
           }

@@ -6,16 +6,13 @@
     </slot>
    </div>
    <div class="new">
-    <slot name="new">Game</slot>
-   </div>
-   <div class="sale">
-    <slot name="sale">With</slot>
+    <slot name="new">New</slot>
    </div>
    <div class="collection">
-    <slot name="collection">Style</slot>
+    <slot name="collection">Collection</slot>
    </div>
    <div class="details"> 
-    <slot name="details">Street Style New Fashion</slot>
+    <slot name="details">of gamer gadgets</slot>
    </div>
   </div>
 </template>
@@ -27,46 +24,47 @@ export default {}
 <style lang="scss" scoped>
 .textlockup {
  display:grid;
- grid-template-columns: 50px 100px 1fr;
- grid-template-rows: 50px 50px 100px 20px 1fr;
+ grid-template-columns: 50px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 50px;
+ grid-template-rows: 50px 70px 30px 20px 1fr;
  grid-column-gap:0px;
  grid-row-gap:0px;
-
+ height: 80vh;
+ width: auto;
  .new{
-  grid-area: 1/3/5/4;
-  font-size: 23vmin;
+  grid-area: 1/2/3/4;
+  font-size: 15vmin;
   color: #efefef;
   text-transform: uppercase;
 
  }
- .sale{
-  grid-area:2/3/3/4;
-  font-size: 6.5vmin;
-  color:#d96528;
-  font-family: "PT Serif", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-  }
   .collection{
     grid-area: 3/ 3/ 4/ 4;
-    font-size:2vmin;
+    font-size:2.5vmin;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-
+    color:#d96528;
+    font-weight: bold;
   }
   .details {
-    grid-area: 4/3/5/4;
+    grid-area: 4/2/5/4;
     font-size:2vmin;
     letter-spacing: 0.2em;
     text-transform: uppercase;
+    color:#efefef;
+    font-weight: bold;
 
   }
   .img {
-    grid-area: 1/3/6/4;
-    max-width:950px;
-
+    grid-area: 1/1/6/10;
+    width: 73vw;
+    overflow: hidden;
+    border: 1px solid #eee2dc;
+    box-shadow: 0 3px 10px 0px #eee;
 
     img{
-      width:95%;
+      width:100%;
+      height: auto;
+
     }
   }
 

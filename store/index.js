@@ -2,7 +2,7 @@ import data from "~/static/storedata.json";
 
 export const state = () => ({
  cartUIStatus:"idle",
- storedata:data,
+ storedata: data,
  cart:[],
  clientSecret: "" // Required to initiate the payment from the client
 })

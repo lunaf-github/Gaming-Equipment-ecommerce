@@ -4,9 +4,11 @@
      <span>Featured Products</span>
    </h2>
    <div class="featureditems">
-     <div class="item" v-for="product in featuredProducts" :key="product.id">
+     <div :class="`item${i}`" v-for="(product, i) in featuredProducts" :key="product.id">
          <nuxt-link :to="`../product/${product.id}`">
-           <img :src="`/products/${product.img}`" />
+            <div class="image-container">
+              <img class="img" :src="`/products/${product.img}`" />
+            </div>
          </nuxt-link>
          <h3>{{ product.name }}</h3>
          <h4>{{ product.price | dollar}}</h4>
@@ -36,21 +38,38 @@ export default {
   .featureditems {
     width:100%;
     margin: 20px 0 70px;
-    .item {
-      border: 1px solid #eee2dc;
-      box-shadow: 0 3px 10px 0px #eee;
-      border-radius: 40px;
-      padding: 10px 20px 30px;
-      min-height: 150px;
+    .item0,
+    .item1,
+    .item2{
+      border-radius: 10%;
+      padding: 20px 20px 30px 20px;
+      height: 55vh;
       justify-self: center;
       align-self: center;
       text-align: center;
     }
+
+    .item1{
+    grid-area: 1 / 1 / 2 / 2;
+    border: 1px solid #e62a2a;
+    box-shadow: 0 3px 10px 0px rgb(255, 0, 0);
+    }
+    .item2{
+    grid-area: 1 / 2 / 2 / 3;
+    border: 1px solid #2a33e6;
+    box-shadow: 0 3px 10px 0px rgb(0, 4, 255);
+    }
+   .item0{
+    grid-area: 1 / 3 / 2 / 4;
+    border: 1px solid #69e62a;
+    box-shadow: 0 3px 10px 0px rgb(47, 255, 0);
+  }
   }
 
   h4 {
     color: #d96528;
     margin: 10px 0;
+    
   }
 
   h2 {
@@ -81,10 +100,25 @@ export default {
     right: -1010px;
   }
 
+  h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+
+    width: 97%;
+  }
+
   @media screen and (max-width: 699px) {
     .featureditems {
       width: 83vw;
       margin-left: 5vw;
+
+      img {
+        max-width: 75vw;
+      }
+
       div {
         padding: 10px 20px;
         margin-bottom: 10px;
@@ -99,17 +133,29 @@ export default {
   @media screen and (min-width: 700px) {
     .featureditems {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: repeat(3, 1fr);
       grid-template-rows: 1fr;
       grid-column-gap: 20px;
-      // grid-row-gap: 10px;
-      div {
-        padding: 40px 50px;
-      }
+      grid-row-gap: 0px;
+      text-align: center;
+      width: 80vw;
     }
 
     img {
-      width: 100%;
+      width: 90%;
+    }
+
+    .image-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5px;
+      height: 40vh;
+      border: 4px solid grey;
+      overflow: hidden;
+      background-color: white;
+      border-radius: 10%;
+      margin-bottom: 5px;
     }
   }
 </style>

@@ -116,7 +116,7 @@ export default {
   }
 
   .golden {
-    background: #f2eee2;
+    background: #2d2c29;
     font-weight: bold;
     padding: 10px;
   }

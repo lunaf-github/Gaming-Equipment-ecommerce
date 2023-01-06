@@ -4,12 +4,14 @@
       <div v-for="item in filteredprice" :key="item.id" class="item">
        <div class="img-contain">
          <nuxt-link :to="`/product/${item.id}`">
-           <Img :src="`/products/${item.img}`"/>
+           <div class="image-container">
+             <Img :src="`/products/${item.img}`"/>
+           </div>
          </nuxt-link>
        </div>
        <star-rating
          :rating="item.starrating"
-         active-color="#000"
+         active-color="orange"
          :star-size="15"
          style="margin: 5px 0"
        ></star-rating>
@@ -17,7 +19,7 @@
        <h4 class="price">{{item.price | dollar}}</h4>
       </div>
     </transition-group>
-    <aside>
+    <aside class="special-sales">
      <h3>Special Sale</h3>
      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam libero iusto nemo laboriosam perferendis voluptas ullam officiis, quibusdam quas quam eveniet est fugit delectus corporis incidunt nam esse suscipit itaque?</p>
      <h3>Filter by Price:</h3>
@@ -92,9 +94,13 @@ export default {
 .img-contain {
  height: 200px;
  display: flex;
+ justify-content: center;
  align-content: center;
  align-items: center;
-
+ position: relative;
+ background-color: white;
+ height: 25vh;
+ width: 100%;
  img {
   max-height: 150px;
   max-width: 150px;
@@ -111,7 +117,8 @@ export default {
  flex-direction: column;
  margin: 10px 0;
  text-align: center;
-
+ background-color: rgb(29, 28, 28);
+ border: 1px solid black;
 }
 
 .item-name {

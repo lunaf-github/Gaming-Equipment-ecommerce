@@ -28,6 +28,7 @@
       :element-options="elementsOptions"
       #default="{elements}"
       ref="elm"
+      style="background-color:white"
     >
         <StripeElement
           type="card" 
@@ -90,7 +91,7 @@ export default {
  },
  methods: {
   pay(){
-    this.$tore.commit("updateCartUI", "success");
+    this.$store.commit("updateCartUI", "success");
   },
   clearCart() {
     this.complete = false;
@@ -103,6 +104,7 @@ export default {
 <style lang="scss" scoped>
   .stripe-card {
   margin-top: 10px;
+  margin-bottom: 10px;
   width: 100%;
   border: 1px solid #ccc;
   padding: 5px 10px;

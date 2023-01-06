@@ -6,9 +6,9 @@
       <template v-slot:img>
         <img src = "/gamer-setup-2.jpg" alt="bag" />
       </template>
-      <template v-slot:new>60%</template>
-      <template v-slot:sale>Storewide Sale</template>
-      <template v-slot:collection>Summer</template>
+      <template v-slot:new>15%</template>
+      <template v-slot:sale>Storewide</template>
+      <template v-slot:collection>OFF</template>
       <template v-slot:details>All accessories</template>
     </app-textlockup>
     <app-feature-products />
@@ -32,7 +32,7 @@ export default {
 
 <style lang="scss" scoped>
 
-  main {
+  div {
     width: 75vw;
   }
 </style>
