@@ -1,13 +1,13 @@
-export const AppCard = () => import('../../components/AppCard.vue' /* webpackChunkName: "components/app-card" */).then(c => wrapFunctional(c.default || c))
-export const AppCartDisplay = () => import('../../components/AppCartDisplay.vue' /* webpackChunkName: "components/app-cart-display" */).then(c => wrapFunctional(c.default || c))
-export const AppCartSteps = () => import('../../components/AppCartSteps.vue' /* webpackChunkName: "components/app-cart-steps" */).then(c => wrapFunctional(c.default || c))
-export const AppFeatureProducts = () => import('../../components/AppFeatureProducts.vue' /* webpackChunkName: "components/app-feature-products" */).then(c => wrapFunctional(c.default || c))
-export const AppFooter = () => import('../../components/AppFooter.vue' /* webpackChunkName: "components/app-footer" */).then(c => wrapFunctional(c.default || c))
-export const AppFooterLinks = () => import('../../components/AppFooterLinks.vue' /* webpackChunkName: "components/app-footer-links" */).then(c => wrapFunctional(c.default || c))
-export const AppNav = () => import('../../components/AppNav.vue' /* webpackChunkName: "components/app-nav" */).then(c => wrapFunctional(c.default || c))
-export const AppSalesBoxes = () => import('../../components/AppSalesBoxes.vue' /* webpackChunkName: "components/app-sales-boxes" */).then(c => wrapFunctional(c.default || c))
-export const AppStoreGrid = () => import('../../components/AppStoreGrid.vue' /* webpackChunkName: "components/app-store-grid" */).then(c => wrapFunctional(c.default || c))
-export const AppTextlockup = () => import('../../components/AppTextlockup.vue' /* webpackChunkName: "components/app-textlockup" */).then(c => wrapFunctional(c.default || c))
+export { default as AppCard } from '../../components/AppCard.vue'
+export { default as AppCartDisplay } from '../../components/AppCartDisplay.vue'
+export { default as AppCartSteps } from '../../components/AppCartSteps.vue'
+export { default as AppFeatureProducts } from '../../components/AppFeatureProducts.vue'
+export { default as AppFooter } from '../../components/AppFooter.vue'
+export { default as AppFooterLinks } from '../../components/AppFooterLinks.vue'
+export { default as AppNav } from '../../components/AppNav.vue'
+export { default as AppSalesBoxes } from '../../components/AppSalesBoxes.vue'
+export { default as AppStoreGrid } from '../../components/AppStoreGrid.vue'
+export { default as AppTextlockup } from '../../components/AppTextlockup.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

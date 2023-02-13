@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="test">
     <app-textlockup />
     <app-sales-boxes />
     <app-textlockup>
@@ -32,7 +32,8 @@ export default {
 
 <style lang="scss" scoped>
 
-  div {
-    width: 75vw;
+  .test {
+    border: 1px solid red;
+    width: 100%;
   }
 </style>

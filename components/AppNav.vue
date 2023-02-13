@@ -1,38 +1,38 @@
 <template>
   <header class="header">
    <h1 class="header__logo">Gamer's Den</h1>
-   <nav class="nav">
-    <ul class="nav__menu-items">
-     <li class="nav__item">
-      <nuxt-link class="nav__item-link" to="/">Home</nuxt-link>
+   <nav class="navbar">
+    <ul class="navbar__menu-items">
+     <li class="navbar__item">
+      <nuxt-link class="navbar__item-link" to="/">Home</nuxt-link>
      </li>
-     <li class="nav__item">
-      <nuxt-link class="nav__item-link" to="/All">All</nuxt-link>
+     <li class="navbar__item">
+      <nuxt-link class="navbar__item-link" to="/All">All</nuxt-link>
      </li>
-     <li class="nav__item">
-      <nuxt-link class="nav__item-link" to="/Accessories">Accessories</nuxt-link>
+     <li class="navbar__item">
+      <nuxt-link class="navbar__item-link" to="/Accessories">Accessories</nuxt-link>
      </li>
-     <li class="nav__item">
-      <nuxt-link class="nav__item-link" to="/Desks">Desks</nuxt-link>
+     <li class="navbar__item">
+      <nuxt-link class="navbar__item-link" to="/Desks">Desks</nuxt-link>
      </li>
-     <li class="nav__item">
-      <nuxt-link class="nav__item-link" to="/Chairs">Chairs</nuxt-link>
+     <li class="navbar__item">
+      <nuxt-link class="navbar__item-link" to="/Chairs">Chairs</nuxt-link>
      </li>
-     <li class="nav__item">
-      <nuxt-link class="nav__item-link" to="/keyboards">Keyboards</nuxt-link>
+     <li class="navbar__item">
+      <nuxt-link class="navbar__item-link" to="/keyboards">Keyboards</nuxt-link>
      </li>
-     <li class="nav__item">
-      <nuxt-link class="nav__item-link" to="/MouseDevices">Mouse Devices</nuxt-link>
+     <li class="navbar__item">
+      <nuxt-link class="navbar__item-link" to="/MouseDevices">Mouse Devices</nuxt-link>
      </li>
-     <li class="nav__item">
-      <nuxt-link class="nav__item-link" to="/headsets">Headsets</nuxt-link>
+     <li class="navbar__item">
+      <nuxt-link class="navbar__item-link" to="/headsets">Headsets</nuxt-link>
      </li>
-     <li class="nav__item">
-      <nuxt-link class="nav__item-link" to="/Monitors">Monitors</nuxt-link>
+     <li class="navbar__item">
+      <nuxt-link class="navbar__item-link" to="/Monitors">Monitors</nuxt-link>
      </li>
-     <li class="nav__item">
-      <div class="nav__cart-total" v-if="cartCount > 0">{{ cartCount }}</div>
-      <nuxt-link class="nav__item-link" to="/Cart">Cart</nuxt-link>
+     <li class="navbar__item">
+      <div class="navbar__cart-total-display" v-if="cartCount > 0">{{ cartCount }}</div>
+      <nuxt-link class="navbar__item-link" to="/Cart">Cart</nuxt-link>
      </li>
     </ul>
    </nav>
@@ -51,19 +51,26 @@ export default {
 
 <style lang="scss" scoped>
   .header {
+  
     display:flex;
     justify-content: center;
     flex-direction: column;
-    padding: 40px 40px 0;
+    padding: 40px 0;
+
+
+    &__logo{
+      padding: 0 40px;
+    }
   }
 
-  .nav {
+  .navbar {
     display: flex;
-    width: 80vw;
+    width: 100%;
     margin-top: 30px;
     justify-content: center;
     align-items: center;
     padding: 8px 0;
+    background-color: map-get($colors, brandSecondary);
     &__menu-items {
       padding-left: 0;
     }
@@ -76,13 +83,13 @@ export default {
       position: relative;
     }
     &__item-link {
-      color: white;
+      color: map-get($colors, buttonText);
       font-weight: bold;
       &:hover {
-        color: #c14103;
+        color: map-get($colors, buttonHover);
       }
     }
-    &__cart-total {
+    &__cart-total-display {
       position:absolute;
       border-radius: 100%;
       background-color: white;

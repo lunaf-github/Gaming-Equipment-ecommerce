@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="footer">
     <ul>
       <li>About</li>
       <li>Company</li>
@@ -27,12 +27,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
- section {
-  width:80%;
-  margin-left: 10%;
+ .footer {
+  width:100%;
   padding: 40px 0;
   display: grid;
   grid-template-columns: repeat(3,1fr);
+  background-color: map-get($colors,brandSecondary);
  }
 
  ul{

@@ -35,7 +35,7 @@ export default {
     routes: dynamicRoutes
   },
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['normalize.css', { src: '~/assets/main.scss', lang: 'sass' }],
+  css: ['~/assets/main.scss'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: ['~/plugins/currency-filter.js'],
@@ -49,8 +49,11 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/style-resources'
   ],
-
+  styleResources: {
+    scss: ['./assets/*.scss']
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     postcss:null,

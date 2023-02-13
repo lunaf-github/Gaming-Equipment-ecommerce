@@ -4,15 +4,27 @@
 $brandprimary: #d96528;
 $brandsecondary: #03c1c1;
 
+$colors: (
+  brandPrimary: #d96528,
+  brandSecondary: #222222,
+  buttonHover:#c14103,
+  buttonText:white
+);
+
+$fonts: (
+  standardFont: ("Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, "Helvetica Neue", Arial, sans-serif),
+);
+
+
+
 /*------------  Global   -----------*/
 
 body {
   border: 10px solid #ccc;
   background-color: black;
   min-height: 100vh;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 16px;
+  font-family: map-get($fonts, standardFont);
   line-height: 1.4;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -50,7 +62,7 @@ p {
 a,
 a:active,
 a:visited {
-  color: $brandprimary;
+  color: map-get($colors, buttonText);
   text-decoration: none;
   transition: 0.3s all ease;
 }
@@ -95,14 +107,7 @@ button.pay-with-stripe {
   }
 }
 
-.price {
-  color: $brandprimary;
-  font-size: 20px;
-  margin: 5px 0;
-  font-weight: normal;
-  font-family: "PT Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
-}
+
 
 hr {
   border-top: 1px solid #eee;
@@ -131,31 +136,8 @@ input {
 
 /*----------- Store Grid ------------*/
 
-.storegrid {
-  width: 95%;
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-template-rows: 1fr;
-  grid-column-gap: 40px;
-  grid-row-gap: 0px;
-}
-/* no grid support */
-aside {
-  float: left;
-  width: 19.1489%;
-}
 
 
-.content {
-  /*no grid support*/
-  float: right;
-  width: 79.7872%;
-  /* grid */
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  padding: 0 !important;
-}
 
 @media (max-width: 600px) {
   aside {
